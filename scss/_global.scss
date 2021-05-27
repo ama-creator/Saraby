@@ -1,0 +1,111 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: $main-font;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+ul,
+li{
+  list-style: none;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-title{
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: $yellow-font-color;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label{
+    top: 20px !important;
+    transform: none;
+    margin-bottom: 10px;
+    transition: all .4s;
+}
+
+
+
+
+
+
+// styles for slick slider 
+.slick-dots {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+ }
+ .slick-active button {
+  border:none;
+  background:transparent;
+  color:transparent;
+  font-size:0;
+  cursor:pointer;
+  position:relative;
+ }
+ .slick-active button::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px !important;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ .slick-active button::before {
+  content:"";
+  position:absolute;
+  background: black;
+ }
+ li[role=presentation] button {
+  border:none;
+  background-color:transparent;
+  color:transparent;
+  font-size:0;
+  cursor:pointer;
+  position:relative;
+  margin-right: 10px;
+ }
+ li[role=presentation] button::before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #3178a3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+ }
+
+
