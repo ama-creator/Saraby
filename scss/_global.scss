@@ -27,7 +27,7 @@ li{
 }
 
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -113,6 +113,14 @@ select:focus-visible {
  }
 
 //  styles for input range 
+#amount{
+  background: transparent !important;
+  outline: none !important;
+  font-family: "Open Sans",sans-serif !important;
+  font-size: 14px !important;
+  color: #757575 !important;
+  border: none !important;
+}
 .ui-slider-handle.ui-corner-all.ui-state-default{
   border: 1px solid #E8E8E8;
   background-color: #fff;
@@ -183,3 +191,7 @@ select:focus-visible {
   min-height: 40px !important;
   height: 40px !important;
 }
+
+
+
+

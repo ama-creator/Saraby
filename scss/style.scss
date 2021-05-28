@@ -10,7 +10,7 @@
         background-color: $dark-bg-color;
     }
     &-wrapper{
-        max-width: 1920px;
+        max-width: 1656px;
         padding: 10px 15px;
         margin: 0 auto;
         display: flex;
@@ -121,7 +121,7 @@
 
 // section intro start 
 .intro{
-    min-height: 100vh;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -138,6 +138,7 @@
         font-family: $main-font;
         font-size: 18px;
         line-height: 25px;
+        margin-bottom: 20px;
         text-transform: uppercase;
         text-align: center;
     }
@@ -153,9 +154,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
         grid-gap: 30px;
-    }
-    &-cart{
-
     }
     &-cart__pic{
         width: 100%;
@@ -219,7 +217,7 @@
 
 // section search start
 .search{
-    margin-bottom: 120px;
+    margin-bottom: 116px;
     &-title{
         margin-bottom: 100px;
     }
@@ -295,16 +293,17 @@
         display: flex;
         justify-content: space-between;
         background-color: $light-blue-bg-color;
-        padding: 40px 30px;
+        padding: 40px 30px 15px;
     }
     &-form__cart{
-        width: 23.7%;
+        width: 22.9%;
         &-title{
             font-family: $main-font;
             font-size: 14px;
             line-height: 19px;
             color: #757575;
             margin-bottom: 10px;
+            font-weight: bold;
         }
         &:nth-child(2){
             width: 49%;
@@ -319,11 +318,17 @@
             fill: transparent;
             margin-right: 10px;
             cursor: pointer;
+            margin-right: 5px;
+            margin-top: 1px;
         }
         &-logo:hover,
         &--active{
             fill: $blue-bg-color;
             transition: all .3s;
+            &:hover{
+                fill: #E0E9F0;
+                transition: all .3s;
+            }
         }
     }
     &-form__checkbox{
@@ -405,8 +410,10 @@
         }
     }
     &-form__range{
-        padding-top: 10px;
         margin-bottom: 10px;
+    }
+    #slider-range{
+        margin-top: 15px;
     }
     &-form__select{
         display: flex;
@@ -523,13 +530,13 @@
 
 // section docs start
 .docs{
-    margin-bottom: 240px;
+    margin-bottom: 251px;
     &-cart{
         background: #FFFFFF;
         border: 2px solid transparent;
         border-radius: 5px;
         box-shadow: 0px 4px 10px rgba(34,34,34,0.1);
-        padding: 30px;
+        padding: 27px 30px 30px;
         margin-bottom: 30px;
     }
     &-cart--favrite{
@@ -538,7 +545,7 @@
     &-cart__details{
         display: flex;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 24px;
         &-text{
             font-family: $main-font;
             font-size: 14px;
@@ -574,7 +581,12 @@
             top: 10px;
         }
         .search-form__rate-logo{
-            margin: -20px 0 0 auto;
+            margin: -11px 0 0 auto;
+            width: 40px;
+            height: 40px;
+        }
+        &-name{
+            margin-right: -8px;
         }
     }
     &-cart__title{
@@ -618,21 +630,21 @@
         }
     }
     &-cart--position{
-        margin-bottom: 60px;
+        margin-bottom: 57px;
     }
 }
 // section docs end
 
 // footer start 
 .footer{
+    height: 352px;
     background-color: #242423;
     padding: 77px 0 123px;
     &-wrapper{
         display: flex;
-        justify-content: space-between;
     }
     &-logo{
-
+        margin-right: 156px;
     }
     &-logo__link{
         &-pic{
@@ -651,14 +663,11 @@
         display: flex;
         align-items: center;
         margin-top: 30px;
-        &-link{
-
-        }
         &-pic{
             max-width: 30px;
             max-height: 30px;
             background-size: cover;
-            margin-right: 30px;
+            margin-right: 20px;
             &:hover{
                 transform: scale(1.07);
                 transition: all .4s;
@@ -667,6 +676,7 @@
     }
     &-links{
         max-width: 449px;
+        margin-right: 56px;
     }
     &-links__title,
     &-contacts__title{
@@ -683,7 +693,7 @@
         font-size: 14px;
         text-transform: uppercase;
         color: #757575;
-        margin-bottom: 20px;
+        margin-bottom: 27px;
         &:hover{
             color: $yellow-font-color;
             transform: scale(1.01);
