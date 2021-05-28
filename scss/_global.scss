@@ -49,6 +49,10 @@ input:not(:placeholder-shown) + label{
     transition: all .4s;
 }
 
+select,
+select:focus-visible {
+  outline: none ;
+}
 
 
 
