@@ -1,0 +1,98 @@
+.news{
+    &-box{
+        max-width: 770px;
+    }
+    &-box__pic{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    &-box__date{
+        font-family: $main-font;
+        font-size: 14px;
+        color: $grey-font-color;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #E8E8E8;
+        margin-bottom: 20px;
+    }
+    &-box__text{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 160%;
+        color: #757575;
+        margin-bottom: 40px;
+        &:last-child{
+            padding-bottom: 60px;
+            margin-bottom: 90px;
+            border-bottom: 1px solid #E8E8E8;
+        }
+    }
+    &-box__title{
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #434343;
+        margin-bottom: 20px;
+    }
+    &-box__detail{
+        font-family: $main-font;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 160%;
+        color: $grey-font-color;
+        padding-left: 14px;
+        border-left: 4px solid $yellow-bg-color;
+        margin-bottom: 40px;
+    }
+    &-box__list{
+        margin-bottom: 30px;
+        &-item{
+            font-family: $main-font;
+            font-size: 16px;
+            line-height: 22px;
+            color: $grey-font-color;
+            padding-left: 14px;
+            margin-bottom: 10px;
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                width: 6px;
+                height: 6px;
+                background-color: $yellow-bg-color;
+                border-radius: 100%;
+                left: 0;
+                top: 8px;
+            }
+        }
+    }
+    &-btn{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 10px 28px 10px 49px;
+        background: #C5A46D;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            background-image: url('../img/svg/arrow-to-left.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform: translateY(-50%);
+            width: 11px;
+            height: 22px;
+            top: 50%;
+            left: 28px;
+
+        }
+        &:hover::before{
+            left: 20px;
+            transition: all .4s;
+        }
+    }
+}

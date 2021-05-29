@@ -1,5 +1,11 @@
 @import "vars";
 @import "libs";
+@import "news";
+@import "search-tour";
+@import "search-tour-results";
+@import "information";
+@import "messages";
+@import "mixins";
 @import "global";
 @import "fonts";
 
@@ -456,9 +462,11 @@
         }
     }
     &-form__research{
-        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
         border-bottom: 1px solid #E8E8E8;
         margin-bottom: 18px;
+        width: 97.2%;
         &-input,
         &-input::placeholder{
             font-family: $main-font;
@@ -469,7 +477,7 @@
             border: none;
             background-color: transparent;
             height: 100%;
-            width: 55%;
+            width: 52%;
             outline: none;
         }
         &-link{
@@ -483,6 +491,9 @@
             &:hover{
                 color: $yellow-font-color;
                 transition: all .3s;
+            }
+            &:last-child{
+                margin-right: 10px;
             }
         }
         &-link span{

@@ -1,0 +1,69 @@
+.search-tour{
+    &__info{
+        font-family: $main-font;
+        font-size: 24px;
+        line-height: 160%;
+        text-transform: uppercase;
+        padding: 50px 30px;
+        color: #000;
+        background: #FFFFFF;
+        border: 5px solid #A5D9FF;
+        border-radius: 8px;
+        margin-bottom: 140px;
+        &--detail{
+            color: $yellow-font-color;
+        }
+    }
+}
+
+.search-status{
+    padding: 30px;
+    background-color: #F4F6F9;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -8px;
+        width: 100%;
+        height: 8px;
+        background-color: transparent;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -8px;
+        width: 445px;
+        height: 8px;
+        background-color: #A5D9FF;   
+    }
+    &__percent{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: $yellow-font-color;
+        margin-right: 6px;
+    }
+    &__process{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: $yellow-font-color;
+    }
+}
+
+.main-search .search{
+    margin-bottom: 248px;
+}
+
+.main-search .search-form{
+    margin-bottom: 30px;
+}

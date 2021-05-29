@@ -184,7 +184,7 @@ select:focus-visible {
 }
 
 .search-form__cart:nth-child(2) .mCSB_scrollTools{
-  top: 40px;
+  top: 0;
 }
 
 .search-form__cart:nth-child(2) .mCS-3d-dark.mCSB_scrollTools_vertical .mCSB_dragger, .mCS-3d.mCSB_scrollTools_vertical .mCSB_dragger{
@@ -192,11 +192,15 @@ select:focus-visible {
   height: 40px !important;
 }
 
+.search-form__checkbox .mycustom-scroll{
+  overflow-y: auto;
+}
 
 
 
+
+
+// rating stars
 .search-form__rate:hover svg:hover ~ .search-form__rate-logo {
   fill: transparent !important;
 }
-
-// rating 

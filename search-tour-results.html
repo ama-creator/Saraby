@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Сараби</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- header start -->
+  <header class="header">
+    <div class="header-top">
+      <div class="header-wrapper">
+        <div class="header-top__logo">
+          <a class="header-top__logo-link" href="#!"><img class="header-top__logo-pic" src="img/svg/header-logo.svg"
+              alt=""></a>
+          <a class="header-top__logo-contact" href="tel:902423237701">+90 242 323 77 01</a>
+        </div>
+        <div class="header-top__cabinet">
+          <a class="header-top__cabinet-profile header-top__cabinet--active" href="messages.html">Tatiana
+            Poddubnaya</a>
+          <a class="header-top__cabinet-exit" href="#!">выйти</a>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <ul class="header-bottom__list">
+          <li class="header-bottom__item"><a class="header-bottom__link" href="index.html">Главная</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="news.html">Новости</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="information.html">Акции</a>
+          </li>
+          <li class="header-bottom__item"><a class="header-bottom__link header-bottom__link--active" href="#!">Поиск
+              туров</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Заявки</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">FAQ</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Информация</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Документы</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Контакты</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Партнеры</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+
+  <main class="main-search">
+
+    <!-- section message-intro start  -->
+    <section class="page-intro" style="background-image: url('img/search-tour/intro-bg.jpg');">
+      <h1 class="page-intro__title">поиск туров</h1>
+    </section>
+    <!-- section message-intro end  -->
+
+    <!-- section search-tour start  -->
+    <section class="search-tour">
+      <div class="container">
+        <p class="search-tour__info">
+          <span class="search-tour__info--detail">Оплата туров</span> осуществляется: <span
+            class="search-tour__info--detail">до 16:00</span> - по курсу туроператоров на текущий день;
+          <span class="search-tour__info--detail">после 16:00</span> в связи с резкими колебаниями курсов
+          валют все оплаты принимаются как депозит с фиксацией курса сследующего дня.
+        </p>
+      </div>
+    </section>
+    <!-- section search-tour end  -->
+    <!-- search start  -->
+    <section class="search">
+      <div class="container">
+        <form class="search-form">
+          <div class="search-form__inner">
+            <div class="search-form__box">
+              <input class="search-form__box-input" type="text" name="from" placeholder="">
+              <label class="search-form__box-label">
+                <svg class="search-form__box-logo" width="15" height="18" viewBox="0 0 15 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.8021 2.21364C9.87171 -0.73772 5.1286 -0.738037 2.1979 2.21364C-0.732407 5.16488 -0.732862 9.94206 2.1979 12.8937L7.10372 17.8347C7.32262 18.0551 7.67745 18.0551 7.8963 17.8347L12.8021 12.8937C15.7324 9.94248 15.7329 5.16534 12.8021 2.21364ZM12.0095 12.0955L7.5 16.6373L2.99048 12.0955C0.503944 9.59118 0.503944 5.51626 2.99048 3.01192C5.47706 0.507622 9.52287 0.507552 12.0095 3.01192C14.4961 5.51623 14.4961 9.59114 12.0095 12.0955Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M7.5 4C5.56565 4 4 5.56533 4 7.5C4 9.43434 5.56539 11 7.5 11C9.43439 11 11 9.43459 11 7.5C11 5.56566 9.43465 4 7.5 4ZM9.14728 9.1473C9.12486 9.1473 8.57328 9.8296 7.5 9.8296C6.21247 9.8296 5.17039 8.78769 5.17039 7.5C5.17039 6.21249 6.21232 5.1704 7.5 5.1704C9.59151 5.1704 10.5968 7.6978 9.14728 9.1473Z"
+                    fill="#BBBBBB" />
+                </svg>
+
+                Откуда
+              </label>
+
+            </div>
+
+            <div class="search-form__box">
+              <input class="search-form__box-input" type="text" name="to" placeholder="">
+              <label class="search-form__box-label">
+                <svg class="search-form__box-logo" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17.5461 1.97938C17.7322 1.93272 17.8847 1.79977 17.9565 1.62171C18.0282 1.44366 18.0105 1.24199 17.9089 1.07917C16.8685 -0.604206 11.5979 -0.331144 9.05247 2.15342C6.4771 -0.340146 1.14347 -0.628211 0.0911367 1.08217C-0.0105287 1.24499 -0.0282248 1.44666 0.04353 1.62472C0.115285 1.80277 0.267828 1.93572 0.453907 1.98238L2.63952 2.29445L2.56757 2.35446C2.36022 2.52765 2.29414 2.8182 2.40616 3.06415C2.51818 3.3101 2.78065 3.45075 3.04727 3.4077L5.10097 3.07162L5.02601 3.14364C4.88394 3.27188 4.81155 3.46028 4.83114 3.65075C4.83471 3.67207 4.83972 3.69313 4.84613 3.71377C4.5558 3.84586 4.27259 3.9931 3.99766 4.15487C2.07588 5.28012 0.304002 7.14954 0.642788 8.53886C0.691627 8.7235 0.825364 8.87384 1.00296 8.94375C1.18055 9.01367 1.38079 8.9948 1.54222 8.89294L3.3021 7.59364C3.28412 7.69267 3.27812 7.70767 3.27512 7.73468C3.24773 8.00564 3.40609 8.26109 3.66082 8.35688C3.91555 8.45266 4.20279 8.36475 4.36044 8.14277L5.57467 6.45339V6.55241C5.56024 6.79585 5.69443 7.02383 5.91418 7.12919C6.13393 7.23455 6.39553 7.19634 6.57603 7.03252L8.207 5.6252C8.95053 9.12699 8.70768 11.5845 8.13505 13.3759C7.64036 14.9123 6.96579 15.8725 6.13531 17.0518C6.00479 17.2352 5.98789 17.4764 6.09155 17.6763C6.19521 17.8762 6.40197 18.0012 6.627 18H10.8933C11.1431 17.9996 11.3665 17.8441 11.4539 17.6099L11.5499 17.3608C12.896 13.9761 13.1389 10.6423 11.8047 7.19755C11.9702 7.19785 12.1284 7.12971 12.242 7.00924C12.3555 6.88878 12.4143 6.72672 12.4043 6.56141V6.46839C12.4043 6.43838 12.1615 6.12031 13.6246 8.15177C13.7824 8.37288 14.0689 8.46027 14.3231 8.36482C14.5875 8.26473 14.7462 7.99341 14.7039 7.71367L14.6949 7.62665L16.4398 8.90194C16.6016 9.00376 16.8023 9.02224 16.98 8.9517C17.1577 8.88115 17.2911 8.73003 17.3392 8.54486C17.669 7.15855 15.9061 5.28912 13.9933 4.16087C13.0789 3.62375 13.1928 3.81579 13.2108 3.68976C13.2414 3.46947 13.1537 3.24938 12.98 3.11063C12.938 3.06562 12.4853 3.00861 14.9647 3.4107C15.2313 3.45375 15.4938 3.3131 15.6058 3.06715C15.7179 2.8212 15.6518 2.53065 15.4444 2.35746L15.3605 2.29145C17.756 1.95237 17.5191 1.98838 17.5461 1.97938ZM5.02002 2.47749L2.95133 2.81657L3.00229 2.76255C3.19402 2.61711 3.28033 2.37106 3.22152 2.13758C3.16271 1.9041 2.97017 1.72841 2.73247 1.69131L0.603812 1.39124C1.40131 0.118958 6.30021 0.295997 8.65072 2.60052C8.54382 2.73523 8.44854 2.87877 8.3659 3.02961C7.42022 2.94746 6.4682 3.07977 5.58066 3.4167C5.71541 3.2231 5.7243 2.96843 5.60339 2.76588C5.48248 2.56333 5.25421 2.45049 5.02002 2.47749ZM6.17429 6.59742V6.5254C6.21809 6.25239 6.06984 5.98475 5.81528 5.87729C5.56072 5.76983 5.26575 5.85036 5.10097 6.0723L3.87774 7.79769L3.89573 7.70467C3.92702 7.46611 3.81293 7.2319 3.60587 7.10965C3.39881 6.9874 3.13881 7.00074 2.94533 7.14354L1.22742 8.39783C0.849657 6.81347 4.91209 3.34769 8.14104 3.61175C8.03311 4.08885 8.15603 4.21188 8.53679 4.55396L6.17429 6.59742ZM8.9985 4.95005L10.8993 6.59742C11.0854 6.9888 11.2515 7.38941 11.397 7.79769H9.16639C9.06838 6.91894 8.92125 6.04637 8.72567 5.1841L8.9985 4.95005ZM11.6188 15.2994H7.98214C8.2376 14.8165 8.45609 14.315 8.63573 13.799H11.9336C11.8564 14.3046 11.7513 14.8055 11.6188 15.2994ZM8.82161 13.1989C8.93472 12.8044 9.02482 12.4036 9.09144 11.9986H12.0895C12.087 12.3996 12.064 12.8003 12.0206 13.1989H8.82161ZM11.9696 10.1982C12.0266 10.6093 12.0596 11.0114 12.0746 11.3985H9.17839C9.22336 11.0204 9.25634 10.6213 9.26833 10.1982H11.9696ZM9.27133 9.5981C9.27133 9.21701 9.25034 8.81492 9.22036 8.39783H11.5799C11.7008 8.79238 11.8008 9.19302 11.8797 9.5981H9.27133ZM10.8903 17.3999H6.627C6.99277 16.8837 7.31057 16.4426 7.64036 15.8995H11.442C11.2081 16.6347 11.0072 17.0998 10.8933 17.3999H10.8903ZM16.7666 8.39783L15.0547 7.14354C14.8583 6.98953 14.5872 6.97326 14.3739 7.10269C14.1606 7.23213 14.0496 7.48022 14.0953 7.72567C14.1163 7.8307 14.3021 8.06175 12.8601 6.0633C12.6898 5.85959 12.406 5.7921 12.1624 5.89739C11.9188 6.00267 11.7733 6.25569 11.8047 6.5194V6.59742L8.79163 3.97183C9.53516 3.35669 11.6248 3.45271 13.7025 4.67699C15.6453 5.82324 16.9914 7.45861 16.7696 8.39783H16.7666ZM15.2945 1.70031C15.0564 1.73107 14.8595 1.90108 14.7942 2.13237C14.7289 2.36366 14.8078 2.61162 14.9947 2.76255L15.0727 2.82257L13.007 2.48049C12.7712 2.46559 12.5486 2.59066 12.4386 2.79992C12.3285 3.00918 12.3515 3.26361 12.4973 3.44971C11.1721 2.9666 9.89793 2.86458 8.9985 3.18265H8.97452C9.52317 2.33346 10.8363 1.38224 12.6172 0.920138C14.7519 0.356011 16.8895 0.57506 17.3932 1.39725L15.2945 1.70031Z"
+                    fill="#BBBBBB" />
+                </svg>
+
+                Куда
+              </label>
+            </div>
+
+            <div class="search-form__box">
+              <input class="search-form__box-input" type="datetime-local" name="date" placeholder="Date">
+
+              <label class="search-form__box-label">
+                <svg class="search-form__box-logo" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.4999 1.20006H15.0001V0.900041C15.0001 0.402905 14.597 0 14.1 0H13.5C13.0029 0 12.6 0.402905 12.6 0.900041V1.20006H5.40004V0.900041C5.40004 0.402905 4.99714 0 4.5 0H3.89997C3.40304 0 2.99993 0.402905 2.99993 0.900041V1.20006H1.50007C0.67199 1.20109 0.00103097 1.87204 0 2.69992V16.4999C0.00103097 17.328 0.67199 17.999 1.50007 18H16.4999C17.328 17.999 17.999 17.328 18 16.4999V2.69992C17.999 1.87204 17.328 1.20109 16.4999 1.20006ZM13.2 0.900041C13.2 0.73426 13.3342 0.600028 13.5 0.600028H14.1C14.2656 0.600028 14.4 0.73426 14.4 0.900041V2.69992C14.4 2.8657 14.2656 2.99993 14.1 2.99993H13.5C13.3342 2.99993 13.2 2.8657 13.2 2.69992V0.900041ZM3.59996 0.900041C3.59996 0.73426 3.7344 0.600028 3.89997 0.600028H4.5C4.66578 0.600028 4.80001 0.73426 4.80001 0.900041V2.69992C4.80001 2.8657 4.66557 2.99993 4.5 2.99993H3.89997C3.7344 2.99993 3.59996 2.8657 3.59996 2.69992V0.900041ZM0.600028 2.69992C0.600028 2.20299 1.00293 1.80008 1.50007 1.80008H2.99993V2.69992C2.99993 3.19705 3.40304 3.59996 3.89997 3.59996H4.5C4.99714 3.59996 5.40004 3.19705 5.40004 2.69992V1.80008H12.6V2.69992C12.6 3.19705 13.0029 3.59996 13.5 3.59996H14.1C14.597 3.59996 14.9999 3.19705 14.9999 2.69992V1.80008H16.4999C16.9971 1.80008 17.4 2.20299 17.4 2.69992V4.80001H0.600028V2.69992ZM17.4 16.4999C17.4 16.9971 16.9971 17.4 16.4999 17.4H1.50007C1.00293 17.4 0.600028 16.9971 0.600028 16.4999V5.40004H17.4V16.4999Z"
+                    fill="#BBBBBB" />
+                  <path d="M8.3999 7.7998H6V10.1999H8.3999V7.7998ZM7.79988 9.59989H6.59982V8.39983H7.79988V9.59989Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M11.9995 7.7998H9.59961V10.1999H11.9995V7.7998ZM11.3995 9.59989H10.1996V8.39983H11.3995V9.59989Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M15.5993 7.7998H13.1992V10.1999H15.5993V7.7998ZM14.9993 9.59989H13.7992V8.39983H14.9993V9.59989Z"
+                    fill="#BBBBBB" />
+                  <path d="M4.80049 10.8002H2.40039V13.2001H4.80049V10.8002ZM4.20047 12.6H3.00042V11.4H4.20047V12.6Z"
+                    fill="#BBBBBB" />
+                  <path d="M8.3999 10.8002H6V13.2001H8.3999V10.8002ZM7.79988 12.6H6.59982V11.4H7.79988V12.6Z"
+                    fill="#BBBBBB" />
+                  <path d="M11.9995 10.8002H9.59961V13.2001H11.9995V10.8002ZM11.3995 12.6H10.1996V11.4H11.3995V12.6Z"
+                    fill="#BBBBBB" />
+                  <path d="M15.5993 10.8002H13.1992V13.2001H15.5993V10.8002ZM14.9993 12.6H13.7992V11.4H14.9993V12.6Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M4.80049 13.7996H2.40039V16.1995H4.80049V13.7996ZM4.20047 15.5997H3.00042V14.3996H4.20047V15.5997Z"
+                    fill="#BBBBBB" />
+                  <path d="M8.3999 13.7996H6V16.1995H8.3999V13.7996ZM7.79988 15.5997H6.59982V14.3996H7.79988V15.5997Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M11.9995 13.7996H9.59961V16.1995H11.9995V13.7996ZM11.3995 15.5997H10.1996V14.3996H11.3995V15.5997Z"
+                    fill="#BBBBBB" />
+                </svg>
+
+                даты
+                вылета</label>
+            </div>
+
+            <div class="search-form__box">
+              <input class="search-form__box-input" type="text" name="nights" placeholder="">
+              <label class="search-form__box-label">
+                <svg class="search-form__box-logo" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9 0C4.03749 0 0 4.03749 0 9C0 13.9625 4.03749 18 9 18C13.9625 18 18 13.9625 18 9C18 4.03749 13.9625 0 9 0ZM9 16.875C4.65765 16.875 1.12501 13.3424 1.12501 9C1.12501 4.65765 4.65765 1.12501 9 1.12501C13.3424 1.12501 16.875 4.65765 16.875 9C16.875 13.3424 13.3424 16.875 9 16.875Z"
+                    fill="#BBBBBB" />
+                  <path d="M9.56251 3.375H8.4375V9.2329L11.9773 12.7727L12.7727 11.9773L9.56251 8.76707V3.375Z"
+                    fill="#BBBBBB" />
+                </svg>
+
+                Ночей
+              </label>
+            </div>
+
+            <div class="search-form__box">
+              <input class="search-form__box-input" type="text" name="peoples" placeholder="">
+              <label class="search-form__box-label">
+                <svg class="search-form__box-logo" width="16" height="18" viewBox="0 0 16 18" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.00072 9C10.5588 9 12.6323 6.98529 12.6323 4.5C12.6323 2.01483 10.5588 0 8.00072 0C5.44288 0 3.36914 2.01483 3.36914 4.5C3.37111 6.98445 5.44362 8.99809 8.00072 9ZM8.00072 0.762694C10.1252 0.762694 11.8473 2.43587 11.8473 4.5C11.8473 6.56413 10.1252 8.23731 8.00072 8.23731C5.87648 8.23731 4.15414 6.56413 4.15414 4.5C4.1577 2.43742 5.87783 0.766036 8.00072 0.762694Z"
+                    fill="#BBBBBB" />
+                  <path
+                    d="M8 10C5.84016 10 3.83162 10.7679 2.3412 12.165C0.829563 13.5813 0 15.5146 0 17.6142C0.000659003 17.827 0.188873 17.9994 0.421108 18H15.579C15.8114 17.9994 15.9993 17.827 16 17.6142C16 15.5186 15.1706 13.5813 13.6591 12.1689C12.1685 10.7718 10.1601 10 8 10ZM0.850652 17.2282C0.943309 15.4839 1.68008 13.8901 2.93906 12.7091C4.2696 11.4626 6.06752 10.7758 7.99591 10.7758C9.92431 10.7758 11.7222 11.4626 13.0526 12.7091C14.3158 13.8901 15.0485 15.4839 15.1412 17.2282H0.850652Z"
+                    fill="#BBBBBB" />
+                </svg>
+
+                Туристы
+              </label>
+            </div>
+          </div>
+
+          <div class="search-form__wrapper">
+            <div class="search-form__cart">
+              <h3 class="search-form__cart-title">КЛАСС ОТЕЛЯ</h3>
+              <div class="search-form__rate">
+                <svg class="search-form__rate-two search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtasder0_i1)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filter02_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg
+                  class="search-form__rate-three search-form__rate-logo search-form__rate-1  search-form__rate--active"
+                  width="29" height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte2r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filte2r0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-four search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#fi2lter0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filt4er0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo search-form__rate--active" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte4r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filtaer0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtedr0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="fildter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <h3 class="search-form__cart-title">Курорт</h3>
+              <div class="search-form__checkbox mycustom-scroll" data-mcs-theme="3d-dark">
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Любой
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Алания
+                  <svg class="search-form__item-minus" width="15" height="15" viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7" stroke="#A5D9FF" />
+                    <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="#A5D9FF" />
+                  </svg>
+                </label>
+
+
+                <label class="search-form__item search-form__item--margin">
+                  <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Авсаллар
+                </label>
+
+                <label class="search-form__item search-form__item--margin">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Алания-центр
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Аланият
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Анталия
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Белек
+                </label>
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Белореченск
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Аланият
+                  <svg class="search-form__item-plus" width="15" height="15" viewBox="0 0 15 15"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" fill="#F5F5F5" />
+                    <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                    <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                  </svg>
+
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Анталия
+                  <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                    viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" />
+                    <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                    <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                  </svg>
+
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Белек
+                  <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                    viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" />
+                    <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                    <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                  </svg>
+
+                </label>
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Белореченск
+                  <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                    viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="7.5" cy="7.5" r="7.5" />
+                    <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                    <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                  </svg>
+
+                </label>
+              </div>
+              <div class="search-form__range">
+                <label for="amount" class="search-form__cart-title">ЦЕНА: </label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+                <div id="slider-range"></div>
+              </div>
+              <div class="search-form__select">
+                <select class="search-form__select-box" name="valute">
+                  <option selected>RUB</option>
+                  <option value="1">RUB</option>
+                  <option value="2">RUB</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="search-form__cart">
+
+              <div class="search-form__select">
+                <label class="search-form__select-title">
+                  ПИТАНИЕ
+                  <select class="search-form__select-box" name="valute">
+                    <option selected>Любое</option>
+                    <option value="1">Любое</option>
+                    <option value="2">Любое</option>
+                  </select>
+                </label>
+                <label class="search-form__select-title">
+                  РЕЙТИНГ
+                  <select class="search-form__select-box" name="valute">
+                    <option selected>Любое</option>
+                    <option value="1">Любое</option>
+                    <option value="2">Любое</option>
+                  </select>
+                </label>
+              </div>
+
+
+              <h3 class="search-form__cart-title">Отель</h3>
+              <div class="search-form__checkbox">
+                <div class="search-form__research">
+                  <input class="search-form__research-input" type="text" placeholder="Введите название" name="research">
+                  <a class="search-form__research-link search-form__research--active" href="#!">все</a>
+                  <a class="search-form__research-link" href="#!">Выбрано <span>2</span></a>
+                  <a class="search-form__research-link" href="#!">сброс</a>
+                </div>
+
+                <div class="mycustom-scroll" data-mcs-theme="3d-dark">
+
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                    <svg class="search-form__item-minus" width="15" height="15" viewBox="0 0 15 15"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="7.5" cy="7.5" r="7" stroke="#A5D9FF" />
+                      <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="#A5D9FF" />
+                    </svg>
+                  </label>
+
+
+                  <label class="search-form__item search-form__item--margin">
+                    <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Наименование
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" checked value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Аланият
+                    <svg class="search-form__item-plus" width="15" height="15" viewBox="0 0 15 15"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="7.5" cy="7.5" r="7.5" fill="#F5F5F5" />
+                      <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                      <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                    </svg>
+
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Анталия
+                    <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                      viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="7.5" cy="7.5" r="7.5" />
+                      <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                      <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                    </svg>
+
+                  </label>
+
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Белек
+                    <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                      viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="7.5" cy="7.5" r="7.5" />
+                      <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                      <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                    </svg>
+
+                  </label>
+                  <label class="search-form__item">
+                    <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                    <span class="search-form__item-icon"></span>
+                    Белореченск
+                    <svg class="search-form__item-plus search-form__item--active" width="15" height="15"
+                      viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="7.5" cy="7.5" r="7.5" />
+                      <rect x="7" y="3" width="1" height="9" rx="0.5" fill="white" />
+                      <rect x="3" y="8" width="1" height="9" rx="0.5" transform="rotate(-90 3 8)" fill="white" />
+                    </svg>
+
+                  </label>
+                </div>
+              </div>
+              <div class="search-form__select">
+                <label class="search-form__select-title">
+                  ПИТАНИЕ
+                  <select class="search-form__select-box" name="valute">
+                    <option selected>Любое</option>
+                    <option value="1">Любое</option>
+                    <option value="2">Любое</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div class="search-form__cart">
+              <div class="search-form__select">
+                <label class="search-form__select-title">
+                  УСЛУГИ ОТЕЛЯ
+                  <select class="search-form__select-box" name="valute">
+                    <option selected>Не выбрано</option>
+                    <option value="1">Любое</option>
+                    <option value="2">Любое</option>
+                  </select>
+                </label>
+              </div>
+
+
+              <h3 class="search-form__cart-title">Оператор</h3>
+              <div class="search-form__checkbox mycustom-scroll" data-mcs-theme="3d-dark">
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Любой
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+                <label class="search-form__item">
+                  <input class="search-form__item-input" type="checkbox" value="prise" name="prise">
+                  <span class="search-form__item-icon"></span>
+                  Наименование
+                </label>
+
+
+              </div>
+              <button class="search-form__btn" type="submit">НАЙТИ ТУРЫ</button>
+            </div>
+          </div>
+        </form>
+        <div class="search-status">
+          <span class="search-status__percent">34%</span>
+          <span class="search-status__process">ищем туры...</span>
+        </div>
+
+      </div>
+    </section>
+    <!-- search end  -->
+
+    <!-- search-result start  -->
+    <section class="search-result">
+      <div class="container">
+        <div class="search-result__wrapper">
+          <div class="search-result__top">
+            <img class="search-result__top-pic" src="img/search-tour/search-result-1.jpg" alt="">
+            <div class="search-result__info">
+              <div class="search-result__info search-form__rate">
+                <svg class="search-form__rate-two search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtasder0_i1)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filter02_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg
+                  class="search-form__rate-three search-form__rate-logo search-form__rate-1  search-form__rate--active"
+                  width="29" height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte2r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filte2r0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-four search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#fi2lter0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filt4er0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo search-form__rate--active" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte4r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filtaer0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtedr0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="fildter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <p class="search-result__info-title">А11 Hotel Obakoy (EX.TAKSIM INTERNATIONAL OBAKOY) 4*</p>
+              <div class="search-result__inner">
+                <div class="search-result__params">
+                  <p class="search-result__params-item">BB</p>
+                  <p class="search-result__params-item">DBL</p>
+                  <p class="search-result__params-item">TEZ TOUR</p>
+                </div>
+                <div class="search-result__detail">
+                  <a href="#!" class="search-result__detail-link search-result__detail--active">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <mask id="path-2-inside-1" fill="white">
+                        <path
+                          d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 22.2646V23.2646H13.4654V22.2646H12.4654ZM10.1324 22.2646H9.13241V23.2646H10.1324V22.2646ZM10.1324 18.5318V17.5318H9.13241V18.5318H10.1324ZM12.4654 18.5318H13.4654V17.5318H12.4654V18.5318ZM12.932 16.5986H9.66581V18.5986H12.932V16.5986ZM9.66581 16.5986C8.85584 16.5986 8.19922 17.2553 8.19922 18.0652H10.1992C10.1992 18.3598 9.96041 18.5986 9.66581 18.5986V16.5986ZM8.19922 18.0652V22.7312H10.1992V18.0652H8.19922ZM8.19922 22.7312C8.19922 23.5412 8.85584 24.1978 9.66581 24.1978V22.1978C9.96041 22.1978 10.1992 22.4366 10.1992 22.7312H8.19922ZM9.66581 24.1978H12.932V22.1978H9.66581V24.1978ZM12.932 24.1978C13.742 24.1978 14.3986 23.5412 14.3986 22.7312H12.3986C12.3986 22.4366 12.6374 22.1978 12.932 22.1978V24.1978ZM14.3986 22.7312V18.0652H12.3986V22.7312H14.3986ZM14.3986 18.0652C14.3986 17.2553 13.742 16.5986 12.932 16.5986V18.5986C12.6374 18.5986 12.3986 18.3598 12.3986 18.0652H14.3986ZM12.4654 21.2646H10.1324V23.2646H12.4654V21.2646ZM11.1324 22.2646V18.5318H9.13241V22.2646H11.1324ZM10.1324 19.5318H12.4654V17.5318H10.1324V19.5318ZM11.4654 18.5318V22.2646H13.4654V18.5318H11.4654Z"
+                        fill="#757575" mask="url(#path-2-inside-1)" />
+                      <mask id="path-4-inside-2" fill="white">
+                        <path
+                          d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 22.2646V23.2646H21.3976V22.2646H20.3976ZM18.0646 22.2646H17.0646V23.2646H18.0646V22.2646ZM18.0646 18.5318V17.5318H17.0646V18.5318H18.0646ZM20.3976 18.5318H21.3976V17.5318H20.3976V18.5318ZM20.8642 16.5986H17.5979V18.5986H20.8642V16.5986ZM17.5979 16.5986C16.788 16.5986 16.1313 17.2553 16.1313 18.0652H18.1313C18.1313 18.3598 17.8925 18.5986 17.5979 18.5986V16.5986ZM16.1313 18.0652V22.7312H18.1313V18.0652H16.1313ZM16.1313 22.7312C16.1313 23.5412 16.788 24.1978 17.5979 24.1978V22.1978C17.8925 22.1978 18.1313 22.4366 18.1313 22.7312H16.1313ZM17.5979 24.1978H20.8642V22.1978H17.5979V24.1978ZM20.8642 24.1978C21.6741 24.1978 22.3307 23.5412 22.3307 22.7312H20.3307C20.3307 22.4366 20.5696 22.1978 20.8642 22.1978V24.1978ZM22.3307 22.7312V18.0652H20.3307V22.7312H22.3307ZM22.3307 18.0652C22.3307 17.2553 21.6741 16.5986 20.8642 16.5986V18.5986C20.5696 18.5986 20.3307 18.3598 20.3307 18.0652H22.3307ZM20.3976 21.2646H18.0646V23.2646H20.3976V21.2646ZM19.0646 22.2646V18.5318H17.0646V22.2646H19.0646ZM18.0646 19.5318H20.3976V17.5318H18.0646V19.5318ZM19.3976 18.5318V22.2646H21.3976V18.5318H19.3976Z"
+                        fill="#757575" mask="url(#path-4-inside-2)" />
+                      <mask id="path-6-inside-3" fill="white">
+                        <path
+                          d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 29.7302V30.7302H21.3976V29.7302H20.3976ZM18.0646 29.7302H17.0646V30.7302H18.0646V29.7302ZM18.0646 25.9974V24.9974H17.0646V25.9974H18.0646ZM20.3976 25.9974H21.3976V24.9974H20.3976V25.9974ZM20.8642 24.0642H17.5979V26.0642H20.8642V24.0642ZM17.5979 24.0642C16.788 24.0642 16.1313 24.7208 16.1313 25.5308H18.1313C18.1313 25.8254 17.8925 26.0642 17.5979 26.0642V24.0642ZM16.1313 25.5308V30.1968H18.1313V25.5308H16.1313ZM16.1313 30.1968C16.1313 31.0068 16.788 31.6634 17.5979 31.6634V29.6634C17.8925 29.6634 18.1313 29.9022 18.1313 30.1968H16.1313ZM17.5979 31.6634H20.8642V29.6634H17.5979V31.6634ZM20.8642 31.6634C21.6741 31.6634 22.3307 31.0068 22.3307 30.1968H20.3307C20.3307 29.9022 20.5696 29.6634 20.8642 29.6634V31.6634ZM22.3307 30.1968V25.5308H20.3307V30.1968H22.3307ZM22.3307 25.5308C22.3307 24.721 21.6742 24.0642 20.8642 24.0642V26.0642C20.5695 26.0642 20.3307 25.8254 20.3307 25.5308H22.3307ZM20.3976 28.7302H18.0646V30.7302H20.3976V28.7302ZM19.0646 29.7302V25.9974H17.0646V29.7302H19.0646ZM18.0646 26.9974H20.3976V24.9974H18.0646V26.9974ZM19.3976 25.9974V29.7302H21.3976V25.9974H19.3976Z"
+                        fill="#757575" mask="url(#path-6-inside-3)" />
+                      <mask id="path-8-inside-4" fill="white">
+                        <path
+                          d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 22.2646V23.2646H28.8634V22.2646H27.8634ZM25.5304 22.2646H24.5304V23.2646H25.5304V22.2646ZM25.5304 18.5318V17.5318H24.5304V18.5318H25.5304ZM27.8634 18.5318H28.8634V17.5318H27.8634V18.5318ZM28.33 16.5986H25.0638V18.5986H28.33V16.5986ZM25.0638 16.5986C24.2538 16.5986 23.5972 17.2553 23.5972 18.0652H25.5972C25.5972 18.3598 25.3584 18.5986 25.0638 18.5986V16.5986ZM23.5972 18.0652V22.7312H25.5972V18.0652H23.5972ZM23.5972 22.7312C23.5972 23.5412 24.2538 24.1978 25.0638 24.1978V22.1978C25.3584 22.1978 25.5972 22.4366 25.5972 22.7312H23.5972ZM25.0638 24.1978H28.33V22.1978H25.0638V24.1978ZM28.33 24.1978C29.14 24.1978 29.7966 23.5412 29.7966 22.7312H27.7966C27.7966 22.4366 28.0354 22.1978 28.33 22.1978V24.1978ZM29.7966 22.7312V18.0652H27.7966V22.7312H29.7966ZM29.7966 18.0652C29.7966 17.2553 29.1399 16.5986 28.33 16.5986V18.5986C28.0354 18.5986 27.7966 18.3598 27.7966 18.0652H29.7966ZM27.8634 21.2646H25.5304V23.2646H27.8634V21.2646ZM26.5304 22.2646V18.5318H24.5304V22.2646H26.5304ZM25.5304 19.5318H27.8634V17.5318H25.5304V19.5318ZM26.8634 18.5318V22.2646H28.8634V18.5318H26.8634Z"
+                        fill="#757575" mask="url(#path-8-inside-4)" />
+                      <mask id="path-10-inside-5" fill="white">
+                        <path
+                          d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 29.7302V30.7302H13.4654V29.7302H12.4654ZM10.1324 29.7302H9.13241V30.7302H10.1324V29.7302ZM10.1324 25.9974V24.9974H9.13241V25.9974H10.1324ZM12.4654 25.9974H13.4654V24.9974H12.4654V25.9974ZM12.932 24.0642H9.66581V26.0642H12.932V24.0642ZM9.66581 24.0642C8.85584 24.0642 8.19922 24.7208 8.19922 25.5308H10.1992C10.1992 25.8254 9.96041 26.0642 9.66581 26.0642V24.0642ZM8.19922 25.5308V30.1968H10.1992V25.5308H8.19922ZM8.19922 30.1968C8.19922 31.0068 8.85584 31.6634 9.66581 31.6634V29.6634C9.96041 29.6634 10.1992 29.9022 10.1992 30.1968H8.19922ZM9.66581 31.6634H12.932V29.6634H9.66581V31.6634ZM12.932 31.6634C13.742 31.6634 14.3986 31.0068 14.3986 30.1968H12.3986C12.3986 29.9022 12.6374 29.6634 12.932 29.6634V31.6634ZM14.3986 30.1968V25.5308H12.3986V30.1968H14.3986ZM14.3986 25.5308C14.3986 24.721 13.7421 24.0642 12.932 24.0642V26.0642C12.6373 26.0642 12.3986 25.8254 12.3986 25.5308H14.3986ZM12.4654 28.7302H10.1324V30.7302H12.4654V28.7302ZM11.1324 29.7302V25.9974H9.13241V29.7302H11.1324ZM10.1324 26.9974H12.4654V24.9974H10.1324V26.9974ZM11.4654 25.9974V29.7302H13.4654V25.9974H11.4654Z"
+                        fill="#757575" mask="url(#path-10-inside-5)" />
+                      <mask id="path-12-inside-6" fill="white">
+                        <path
+                          d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 29.7302V30.7302H28.8634V29.7302H27.8634ZM25.5304 29.7302H24.5304V30.7302H25.5304V29.7302ZM25.5304 25.9974V24.9974H24.5304V25.9974H25.5304ZM27.8634 25.9974H28.8634V24.9974H27.8634V25.9974ZM28.33 24.0642H25.0638V26.0642H28.33V24.0642ZM25.0638 24.0642C24.2538 24.0642 23.5972 24.7208 23.5972 25.5308H25.5972C25.5972 25.8254 25.3584 26.0642 25.0638 26.0642V24.0642ZM23.5972 25.5308V30.1968H25.5972V25.5308H23.5972ZM23.5972 30.1968C23.5972 31.0068 24.2538 31.6634 25.0638 31.6634V29.6634C25.3584 29.6634 25.5972 29.9022 25.5972 30.1968H23.5972ZM25.0638 31.6634H28.33V29.6634H25.0638V31.6634ZM28.33 31.6634C29.14 31.6634 29.7966 31.0068 29.7966 30.1968H27.7966C27.7966 29.9022 28.0354 29.6634 28.33 29.6634V31.6634ZM29.7966 30.1968V25.5308H27.7966V30.1968H29.7966ZM29.7966 25.5308C29.7966 24.721 29.14 24.0642 28.33 24.0642V26.0642C28.0353 26.0642 27.7966 25.8254 27.7966 25.5308H29.7966ZM27.8634 28.7302H25.5304V30.7302H27.8634V28.7302ZM26.5304 29.7302V25.9974H24.5304V29.7302H26.5304ZM25.5304 26.9974H27.8634V24.9974H25.5304V26.9974ZM26.8634 25.9974V29.7302H28.8634V25.9974H26.8634Z"
+                        fill="#757575" mask="url(#path-12-inside-6)" />
+                      <path d="M31.1296 32.4958H30.6964V32.0628L31.1296 32.0627V32.4958Z" fill="#222222"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M29.8753 12.0277L29.8752 12.0276C28.3779 11.1549 26.6282 11.5964 25.3297 12.2019L21.3477 14.0588L21.1281 14.1612L20.9117 14.0523L14.1793 10.6662L11.3566 10.7875L16.2206 15.7185L16.7146 16.2193L16.0791 16.5212L12.475 18.2333L12.2821 18.3249L12.0826 18.249L8.53035 16.8971L6.78971 17.7087L8.65834 20.0292L8.91601 20.3491L8.65211 20.664C8.56356 20.7696 8.49765 20.8735 8.46203 20.9686L8.60669 20.7706C8.67925 20.6713 8.7917 20.5464 8.96889 20.3905L8.9689 20.3904L8.97935 20.3812L7.23606 18.2165L6.8358 17.7195L7.41416 17.4497L8.33976 17.0181L8.53136 16.9287L8.72894 17.0039L12.2832 18.3567L16.7642 16.2281L12.2149 11.6161L11.4236 10.8138L12.5494 10.7654L14.0429 10.7013L14.1729 10.6957L14.289 10.7541L21.1275 14.1935L25.342 12.2284C27.04 11.4366 28.5916 11.3135 29.8604 12.0528L29.8604 12.0528L29.9164 12.0854L29.919 12.0881C30.0573 12.1739 30.1701 12.2638 30.2562 12.3555C30.3049 12.4072 30.3524 12.4674 30.3902 12.5354C30.4206 12.5902 30.4762 12.7053 30.4702 12.8532C30.4702 12.8542 30.4702 12.8552 30.4701 12.8562L29.9706 12.8332C29.9705 12.8369 29.9396 13.206 28.6916 13.7879L29.8753 12.0277ZM29.8753 12.0277C30.1885 12.2102 30.3398 12.386 30.4145 12.5183C30.4884 12.649 30.5036 12.7655 30.4994 12.8574C30.4916 13.0298 30.4103 13.2342 30.1619 13.4783C29.9082 13.7277 29.5044 13.9929 28.9154 14.2676L29.8753 12.0277Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M8 26.7369H30M30 26.7369L26.7647 23.4474M30 26.7369L26.7647 30.0263"
+                          stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect x="6" y="7" width="25" height="25" rx="3" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M7.12473 12.0277L7.12479 12.0276C8.62214 11.1549 10.3718 11.5964 11.6703 12.2019L15.6523 14.0588L15.8719 14.1612L16.0883 14.0523L22.8207 10.6662L25.6434 10.7875L20.7794 15.7185L20.2854 16.2193L20.9209 16.5212L24.525 18.2333L24.7179 18.3249L24.9174 18.249L28.4696 16.8971L30.2103 17.7087L28.3417 20.0292L28.084 20.3491L28.3479 20.6639C28.4364 20.7696 28.5023 20.8735 28.538 20.9686L28.3933 20.7706C28.3208 20.6713 28.2083 20.5464 28.0311 20.3904L28.0311 20.3904L28.0206 20.3812L29.7639 18.2165L30.1642 17.7195L29.5858 17.4497L28.6602 17.0181L28.4686 16.9287L28.2711 17.0039L24.7168 18.3567L20.2358 16.2281L24.7851 11.6161L25.5764 10.8138L24.4506 10.7654L22.9571 10.7013L22.8271 10.6957L22.711 10.7541L15.8725 14.1935L11.658 12.2284C9.96001 11.4366 8.4084 11.3135 7.13962 12.0528L7.13959 12.0528L7.08413 12.0851L7.0815 12.0877C6.94298 12.1736 6.83003 12.2637 6.74376 12.3555C6.69513 12.4072 6.64762 12.4674 6.60982 12.5354C6.57936 12.5902 6.52378 12.7053 6.52976 12.8532C6.5298 12.8542 6.52984 12.8552 6.52989 12.8562L7.02936 12.8332C7.02946 12.8369 7.06039 13.206 8.30835 13.7879L7.12473 12.0277ZM7.12473 12.0277C6.81147 12.2102 6.66023 12.386 6.58548 12.5183C6.51155 12.649 6.49638 12.7655 6.50057 12.8574C6.50844 13.0298 6.58975 13.2342 6.83806 13.4783C7.09175 13.7277 7.49556 13.9929 8.0846 14.2676C8.0846 14.2676 8.08461 14.2676 8.08461 14.2676L22.3188 20.9051C23.179 21.3062 24.6028 21.6462 25.933 21.7513L25.9331 21.7513C26.2188 21.7739 26.4822 21.7849 26.7232 21.7849H26.7233C27.3175 21.7849 27.7548 21.7177 28.0568 21.6072C28.2262 21.5452 28.3405 21.4746 28.418 21.403M7.12473 12.0277L28.418 21.403M28.418 21.403L28.2261 21.506C28.0298 21.6115 27.7313 21.6851 27.3572 21.7236C26.969 21.7636 26.4579 21.7697 25.8092 21.7115C24.553 21.5987 23.1919 21.28 22.3312 20.8786L8.09707 14.241L28.418 21.403Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M30 26.7369H8M8 26.7369L11.2353 23.4474M8 26.7369L11.2353 30.0263" stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="25" height="25" fill="white" transform="matrix(-1 0 0 1 31 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="search-result__detail-link" href="#!">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M8.97358 7.67488L12.515 18.8408C12.7275 19.5107 13.4534 19.7713 13.7899 19.8178H26.6807C27.4739 19.8178 27.4834 19.1665 27.3889 18.8408C27.1528 18.3755 26.5673 17.2496 26.114 16.468C25.6607 15.6864 24.9808 15.491 24.6975 15.491L22.7143 15.3514C22.5726 15.0723 22.2326 14.3465 22.006 13.6766C21.7793 13.0066 20.8727 12.7461 20.4477 12.6995C19.5034 12.6065 17.3596 12.3925 16.3397 12.2808C15.3198 12.1692 14.687 11.4899 14.4982 11.1642C14.026 9.90806 13.0249 7.25616 12.7983 6.69787C12.5716 6.13957 11.9483 6 11.665 6H9.82352C8.69026 6 8.7847 7.11659 8.97358 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M25.5474 21.7718V21.6076H20.1644H14.7815V22.7242C14.7815 22.9475 15.0648 23.1429 15.3481 23.1429H24.9808C25.3207 23.1429 25.5002 22.8638 25.5474 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M8 26.7369L30 26.7369M30 26.7369L26.7647 30.0264M30 26.7369L26.7647 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M29.0264 7.67488L25.485 18.8408C25.2725 19.5107 24.5466 19.7713 24.2101 19.8178H11.3193C10.5261 19.8178 10.5166 19.1665 10.6111 18.8408C10.8472 18.3755 11.4327 17.2496 11.886 16.468C12.3393 15.6864 13.0192 15.491 13.3025 15.491L15.2857 15.3514C15.4274 15.0723 15.7674 14.3465 15.994 13.6766C16.2207 13.0066 17.1273 12.7461 17.5523 12.6995C18.4966 12.6065 20.6404 12.3925 21.6603 12.2808C22.6802 12.1692 23.313 11.4899 23.5018 11.1642C23.974 9.90806 24.9751 7.25616 25.2017 6.69787C25.4284 6.13957 26.0517 6 26.335 6H28.1765C29.3097 6 29.2153 7.11659 29.0264 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M12.4526 21.7718V21.6076H17.8356H23.2185V22.7242C23.2185 22.9475 22.9352 23.1429 22.6519 23.1429H13.0192C12.6793 23.1429 12.4998 22.8638 12.4526 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M30 26.7369L8 26.7369M8 26.7369L11.2353 30.0264M8 26.7369L11.2353 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-result__inner">
+            <div class="search-result__total">
+              <span class="search-result__total-info">01.02.2020</span>
+              <span class="search-result__total-info">8 ночей</span>
+              <span class="search-result__total-info">Анталия</span>
+            </div>
+            <div class="search-result__more">
+              <span class="search-result__more-price">67 800 <span class="search-result__more-valute">РУБ</span></span>
+              <a class="search-result__more-btn" href="#!">
+                <svg class="search-result__more-pic" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97919 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 4V2H10.5V4H13.5Z"
+                    fill="#C5A46D" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- next carts  -->
+        <div class="search-result__wrapper">
+          <div class="search-result__top">
+            <img class="search-result__top-pic" src="img/search-tour/search-result-1.jpg" alt="">
+            <div class="search-result__info">
+              <div class="search-result__info search-form__rate">
+                <svg class="search-form__rate-two search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtasder0_i1)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filter02_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg
+                  class="search-form__rate-three search-form__rate-logo search-form__rate-1  search-form__rate--active"
+                  width="29" height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte2r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filte2r0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-four search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#fi2lter0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filt4er0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo search-form__rate--active" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte4r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filtaer0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtedr0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="fildter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <p class="search-result__info-title">А11 Hotel Obakoy (EX.TAKSIM INTERNATIONAL OBAKOY) 4*</p>
+              <div class="search-result__inner">
+                <div class="search-result__params">
+                  <p class="search-result__params-item">BB</p>
+                  <p class="search-result__params-item">DBL</p>
+                  <p class="search-result__params-item">TEZ TOUR</p>
+                </div>
+                <div class="search-result__detail">
+                  <a href="#!" class="search-result__detail-link search-result__detail--active">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <mask id="path-2-inside-1" fill="white">
+                        <path
+                          d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 22.2646V23.2646H13.4654V22.2646H12.4654ZM10.1324 22.2646H9.13241V23.2646H10.1324V22.2646ZM10.1324 18.5318V17.5318H9.13241V18.5318H10.1324ZM12.4654 18.5318H13.4654V17.5318H12.4654V18.5318ZM12.932 16.5986H9.66581V18.5986H12.932V16.5986ZM9.66581 16.5986C8.85584 16.5986 8.19922 17.2553 8.19922 18.0652H10.1992C10.1992 18.3598 9.96041 18.5986 9.66581 18.5986V16.5986ZM8.19922 18.0652V22.7312H10.1992V18.0652H8.19922ZM8.19922 22.7312C8.19922 23.5412 8.85584 24.1978 9.66581 24.1978V22.1978C9.96041 22.1978 10.1992 22.4366 10.1992 22.7312H8.19922ZM9.66581 24.1978H12.932V22.1978H9.66581V24.1978ZM12.932 24.1978C13.742 24.1978 14.3986 23.5412 14.3986 22.7312H12.3986C12.3986 22.4366 12.6374 22.1978 12.932 22.1978V24.1978ZM14.3986 22.7312V18.0652H12.3986V22.7312H14.3986ZM14.3986 18.0652C14.3986 17.2553 13.742 16.5986 12.932 16.5986V18.5986C12.6374 18.5986 12.3986 18.3598 12.3986 18.0652H14.3986ZM12.4654 21.2646H10.1324V23.2646H12.4654V21.2646ZM11.1324 22.2646V18.5318H9.13241V22.2646H11.1324ZM10.1324 19.5318H12.4654V17.5318H10.1324V19.5318ZM11.4654 18.5318V22.2646H13.4654V18.5318H11.4654Z"
+                        fill="#757575" mask="url(#path-2-inside-1)" />
+                      <mask id="path-4-inside-2" fill="white">
+                        <path
+                          d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 22.2646V23.2646H21.3976V22.2646H20.3976ZM18.0646 22.2646H17.0646V23.2646H18.0646V22.2646ZM18.0646 18.5318V17.5318H17.0646V18.5318H18.0646ZM20.3976 18.5318H21.3976V17.5318H20.3976V18.5318ZM20.8642 16.5986H17.5979V18.5986H20.8642V16.5986ZM17.5979 16.5986C16.788 16.5986 16.1313 17.2553 16.1313 18.0652H18.1313C18.1313 18.3598 17.8925 18.5986 17.5979 18.5986V16.5986ZM16.1313 18.0652V22.7312H18.1313V18.0652H16.1313ZM16.1313 22.7312C16.1313 23.5412 16.788 24.1978 17.5979 24.1978V22.1978C17.8925 22.1978 18.1313 22.4366 18.1313 22.7312H16.1313ZM17.5979 24.1978H20.8642V22.1978H17.5979V24.1978ZM20.8642 24.1978C21.6741 24.1978 22.3307 23.5412 22.3307 22.7312H20.3307C20.3307 22.4366 20.5696 22.1978 20.8642 22.1978V24.1978ZM22.3307 22.7312V18.0652H20.3307V22.7312H22.3307ZM22.3307 18.0652C22.3307 17.2553 21.6741 16.5986 20.8642 16.5986V18.5986C20.5696 18.5986 20.3307 18.3598 20.3307 18.0652H22.3307ZM20.3976 21.2646H18.0646V23.2646H20.3976V21.2646ZM19.0646 22.2646V18.5318H17.0646V22.2646H19.0646ZM18.0646 19.5318H20.3976V17.5318H18.0646V19.5318ZM19.3976 18.5318V22.2646H21.3976V18.5318H19.3976Z"
+                        fill="#757575" mask="url(#path-4-inside-2)" />
+                      <mask id="path-6-inside-3" fill="white">
+                        <path
+                          d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 29.7302V30.7302H21.3976V29.7302H20.3976ZM18.0646 29.7302H17.0646V30.7302H18.0646V29.7302ZM18.0646 25.9974V24.9974H17.0646V25.9974H18.0646ZM20.3976 25.9974H21.3976V24.9974H20.3976V25.9974ZM20.8642 24.0642H17.5979V26.0642H20.8642V24.0642ZM17.5979 24.0642C16.788 24.0642 16.1313 24.7208 16.1313 25.5308H18.1313C18.1313 25.8254 17.8925 26.0642 17.5979 26.0642V24.0642ZM16.1313 25.5308V30.1968H18.1313V25.5308H16.1313ZM16.1313 30.1968C16.1313 31.0068 16.788 31.6634 17.5979 31.6634V29.6634C17.8925 29.6634 18.1313 29.9022 18.1313 30.1968H16.1313ZM17.5979 31.6634H20.8642V29.6634H17.5979V31.6634ZM20.8642 31.6634C21.6741 31.6634 22.3307 31.0068 22.3307 30.1968H20.3307C20.3307 29.9022 20.5696 29.6634 20.8642 29.6634V31.6634ZM22.3307 30.1968V25.5308H20.3307V30.1968H22.3307ZM22.3307 25.5308C22.3307 24.721 21.6742 24.0642 20.8642 24.0642V26.0642C20.5695 26.0642 20.3307 25.8254 20.3307 25.5308H22.3307ZM20.3976 28.7302H18.0646V30.7302H20.3976V28.7302ZM19.0646 29.7302V25.9974H17.0646V29.7302H19.0646ZM18.0646 26.9974H20.3976V24.9974H18.0646V26.9974ZM19.3976 25.9974V29.7302H21.3976V25.9974H19.3976Z"
+                        fill="#757575" mask="url(#path-6-inside-3)" />
+                      <mask id="path-8-inside-4" fill="white">
+                        <path
+                          d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 22.2646V23.2646H28.8634V22.2646H27.8634ZM25.5304 22.2646H24.5304V23.2646H25.5304V22.2646ZM25.5304 18.5318V17.5318H24.5304V18.5318H25.5304ZM27.8634 18.5318H28.8634V17.5318H27.8634V18.5318ZM28.33 16.5986H25.0638V18.5986H28.33V16.5986ZM25.0638 16.5986C24.2538 16.5986 23.5972 17.2553 23.5972 18.0652H25.5972C25.5972 18.3598 25.3584 18.5986 25.0638 18.5986V16.5986ZM23.5972 18.0652V22.7312H25.5972V18.0652H23.5972ZM23.5972 22.7312C23.5972 23.5412 24.2538 24.1978 25.0638 24.1978V22.1978C25.3584 22.1978 25.5972 22.4366 25.5972 22.7312H23.5972ZM25.0638 24.1978H28.33V22.1978H25.0638V24.1978ZM28.33 24.1978C29.14 24.1978 29.7966 23.5412 29.7966 22.7312H27.7966C27.7966 22.4366 28.0354 22.1978 28.33 22.1978V24.1978ZM29.7966 22.7312V18.0652H27.7966V22.7312H29.7966ZM29.7966 18.0652C29.7966 17.2553 29.1399 16.5986 28.33 16.5986V18.5986C28.0354 18.5986 27.7966 18.3598 27.7966 18.0652H29.7966ZM27.8634 21.2646H25.5304V23.2646H27.8634V21.2646ZM26.5304 22.2646V18.5318H24.5304V22.2646H26.5304ZM25.5304 19.5318H27.8634V17.5318H25.5304V19.5318ZM26.8634 18.5318V22.2646H28.8634V18.5318H26.8634Z"
+                        fill="#757575" mask="url(#path-8-inside-4)" />
+                      <mask id="path-10-inside-5" fill="white">
+                        <path
+                          d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 29.7302V30.7302H13.4654V29.7302H12.4654ZM10.1324 29.7302H9.13241V30.7302H10.1324V29.7302ZM10.1324 25.9974V24.9974H9.13241V25.9974H10.1324ZM12.4654 25.9974H13.4654V24.9974H12.4654V25.9974ZM12.932 24.0642H9.66581V26.0642H12.932V24.0642ZM9.66581 24.0642C8.85584 24.0642 8.19922 24.7208 8.19922 25.5308H10.1992C10.1992 25.8254 9.96041 26.0642 9.66581 26.0642V24.0642ZM8.19922 25.5308V30.1968H10.1992V25.5308H8.19922ZM8.19922 30.1968C8.19922 31.0068 8.85584 31.6634 9.66581 31.6634V29.6634C9.96041 29.6634 10.1992 29.9022 10.1992 30.1968H8.19922ZM9.66581 31.6634H12.932V29.6634H9.66581V31.6634ZM12.932 31.6634C13.742 31.6634 14.3986 31.0068 14.3986 30.1968H12.3986C12.3986 29.9022 12.6374 29.6634 12.932 29.6634V31.6634ZM14.3986 30.1968V25.5308H12.3986V30.1968H14.3986ZM14.3986 25.5308C14.3986 24.721 13.7421 24.0642 12.932 24.0642V26.0642C12.6373 26.0642 12.3986 25.8254 12.3986 25.5308H14.3986ZM12.4654 28.7302H10.1324V30.7302H12.4654V28.7302ZM11.1324 29.7302V25.9974H9.13241V29.7302H11.1324ZM10.1324 26.9974H12.4654V24.9974H10.1324V26.9974ZM11.4654 25.9974V29.7302H13.4654V25.9974H11.4654Z"
+                        fill="#757575" mask="url(#path-10-inside-5)" />
+                      <mask id="path-12-inside-6" fill="white">
+                        <path
+                          d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 29.7302V30.7302H28.8634V29.7302H27.8634ZM25.5304 29.7302H24.5304V30.7302H25.5304V29.7302ZM25.5304 25.9974V24.9974H24.5304V25.9974H25.5304ZM27.8634 25.9974H28.8634V24.9974H27.8634V25.9974ZM28.33 24.0642H25.0638V26.0642H28.33V24.0642ZM25.0638 24.0642C24.2538 24.0642 23.5972 24.7208 23.5972 25.5308H25.5972C25.5972 25.8254 25.3584 26.0642 25.0638 26.0642V24.0642ZM23.5972 25.5308V30.1968H25.5972V25.5308H23.5972ZM23.5972 30.1968C23.5972 31.0068 24.2538 31.6634 25.0638 31.6634V29.6634C25.3584 29.6634 25.5972 29.9022 25.5972 30.1968H23.5972ZM25.0638 31.6634H28.33V29.6634H25.0638V31.6634ZM28.33 31.6634C29.14 31.6634 29.7966 31.0068 29.7966 30.1968H27.7966C27.7966 29.9022 28.0354 29.6634 28.33 29.6634V31.6634ZM29.7966 30.1968V25.5308H27.7966V30.1968H29.7966ZM29.7966 25.5308C29.7966 24.721 29.14 24.0642 28.33 24.0642V26.0642C28.0353 26.0642 27.7966 25.8254 27.7966 25.5308H29.7966ZM27.8634 28.7302H25.5304V30.7302H27.8634V28.7302ZM26.5304 29.7302V25.9974H24.5304V29.7302H26.5304ZM25.5304 26.9974H27.8634V24.9974H25.5304V26.9974ZM26.8634 25.9974V29.7302H28.8634V25.9974H26.8634Z"
+                        fill="#757575" mask="url(#path-12-inside-6)" />
+                      <path d="M31.1296 32.4958H30.6964V32.0628L31.1296 32.0627V32.4958Z" fill="#222222"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M29.8753 12.0277L29.8752 12.0276C28.3779 11.1549 26.6282 11.5964 25.3297 12.2019L21.3477 14.0588L21.1281 14.1612L20.9117 14.0523L14.1793 10.6662L11.3566 10.7875L16.2206 15.7185L16.7146 16.2193L16.0791 16.5212L12.475 18.2333L12.2821 18.3249L12.0826 18.249L8.53035 16.8971L6.78971 17.7087L8.65834 20.0292L8.91601 20.3491L8.65211 20.664C8.56356 20.7696 8.49765 20.8735 8.46203 20.9686L8.60669 20.7706C8.67925 20.6713 8.7917 20.5464 8.96889 20.3905L8.9689 20.3904L8.97935 20.3812L7.23606 18.2165L6.8358 17.7195L7.41416 17.4497L8.33976 17.0181L8.53136 16.9287L8.72894 17.0039L12.2832 18.3567L16.7642 16.2281L12.2149 11.6161L11.4236 10.8138L12.5494 10.7654L14.0429 10.7013L14.1729 10.6957L14.289 10.7541L21.1275 14.1935L25.342 12.2284C27.04 11.4366 28.5916 11.3135 29.8604 12.0528L29.8604 12.0528L29.9164 12.0854L29.919 12.0881C30.0573 12.1739 30.1701 12.2638 30.2562 12.3555C30.3049 12.4072 30.3524 12.4674 30.3902 12.5354C30.4206 12.5902 30.4762 12.7053 30.4702 12.8532C30.4702 12.8542 30.4702 12.8552 30.4701 12.8562L29.9706 12.8332C29.9705 12.8369 29.9396 13.206 28.6916 13.7879L29.8753 12.0277ZM29.8753 12.0277C30.1885 12.2102 30.3398 12.386 30.4145 12.5183C30.4884 12.649 30.5036 12.7655 30.4994 12.8574C30.4916 13.0298 30.4103 13.2342 30.1619 13.4783C29.9082 13.7277 29.5044 13.9929 28.9154 14.2676L29.8753 12.0277Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M8 26.7369H30M30 26.7369L26.7647 23.4474M30 26.7369L26.7647 30.0263"
+                          stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect x="6" y="7" width="25" height="25" rx="3" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M7.12473 12.0277L7.12479 12.0276C8.62214 11.1549 10.3718 11.5964 11.6703 12.2019L15.6523 14.0588L15.8719 14.1612L16.0883 14.0523L22.8207 10.6662L25.6434 10.7875L20.7794 15.7185L20.2854 16.2193L20.9209 16.5212L24.525 18.2333L24.7179 18.3249L24.9174 18.249L28.4696 16.8971L30.2103 17.7087L28.3417 20.0292L28.084 20.3491L28.3479 20.6639C28.4364 20.7696 28.5023 20.8735 28.538 20.9686L28.3933 20.7706C28.3208 20.6713 28.2083 20.5464 28.0311 20.3904L28.0311 20.3904L28.0206 20.3812L29.7639 18.2165L30.1642 17.7195L29.5858 17.4497L28.6602 17.0181L28.4686 16.9287L28.2711 17.0039L24.7168 18.3567L20.2358 16.2281L24.7851 11.6161L25.5764 10.8138L24.4506 10.7654L22.9571 10.7013L22.8271 10.6957L22.711 10.7541L15.8725 14.1935L11.658 12.2284C9.96001 11.4366 8.4084 11.3135 7.13962 12.0528L7.13959 12.0528L7.08413 12.0851L7.0815 12.0877C6.94298 12.1736 6.83003 12.2637 6.74376 12.3555C6.69513 12.4072 6.64762 12.4674 6.60982 12.5354C6.57936 12.5902 6.52378 12.7053 6.52976 12.8532C6.5298 12.8542 6.52984 12.8552 6.52989 12.8562L7.02936 12.8332C7.02946 12.8369 7.06039 13.206 8.30835 13.7879L7.12473 12.0277ZM7.12473 12.0277C6.81147 12.2102 6.66023 12.386 6.58548 12.5183C6.51155 12.649 6.49638 12.7655 6.50057 12.8574C6.50844 13.0298 6.58975 13.2342 6.83806 13.4783C7.09175 13.7277 7.49556 13.9929 8.0846 14.2676C8.0846 14.2676 8.08461 14.2676 8.08461 14.2676L22.3188 20.9051C23.179 21.3062 24.6028 21.6462 25.933 21.7513L25.9331 21.7513C26.2188 21.7739 26.4822 21.7849 26.7232 21.7849H26.7233C27.3175 21.7849 27.7548 21.7177 28.0568 21.6072C28.2262 21.5452 28.3405 21.4746 28.418 21.403M7.12473 12.0277L28.418 21.403M28.418 21.403L28.2261 21.506C28.0298 21.6115 27.7313 21.6851 27.3572 21.7236C26.969 21.7636 26.4579 21.7697 25.8092 21.7115C24.553 21.5987 23.1919 21.28 22.3312 20.8786L8.09707 14.241L28.418 21.403Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M30 26.7369H8M8 26.7369L11.2353 23.4474M8 26.7369L11.2353 30.0263" stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="25" height="25" fill="white" transform="matrix(-1 0 0 1 31 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="search-result__detail-link" href="#!">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M8.97358 7.67488L12.515 18.8408C12.7275 19.5107 13.4534 19.7713 13.7899 19.8178H26.6807C27.4739 19.8178 27.4834 19.1665 27.3889 18.8408C27.1528 18.3755 26.5673 17.2496 26.114 16.468C25.6607 15.6864 24.9808 15.491 24.6975 15.491L22.7143 15.3514C22.5726 15.0723 22.2326 14.3465 22.006 13.6766C21.7793 13.0066 20.8727 12.7461 20.4477 12.6995C19.5034 12.6065 17.3596 12.3925 16.3397 12.2808C15.3198 12.1692 14.687 11.4899 14.4982 11.1642C14.026 9.90806 13.0249 7.25616 12.7983 6.69787C12.5716 6.13957 11.9483 6 11.665 6H9.82352C8.69026 6 8.7847 7.11659 8.97358 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M25.5474 21.7718V21.6076H20.1644H14.7815V22.7242C14.7815 22.9475 15.0648 23.1429 15.3481 23.1429H24.9808C25.3207 23.1429 25.5002 22.8638 25.5474 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M8 26.7369L30 26.7369M30 26.7369L26.7647 30.0264M30 26.7369L26.7647 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M29.0264 7.67488L25.485 18.8408C25.2725 19.5107 24.5466 19.7713 24.2101 19.8178H11.3193C10.5261 19.8178 10.5166 19.1665 10.6111 18.8408C10.8472 18.3755 11.4327 17.2496 11.886 16.468C12.3393 15.6864 13.0192 15.491 13.3025 15.491L15.2857 15.3514C15.4274 15.0723 15.7674 14.3465 15.994 13.6766C16.2207 13.0066 17.1273 12.7461 17.5523 12.6995C18.4966 12.6065 20.6404 12.3925 21.6603 12.2808C22.6802 12.1692 23.313 11.4899 23.5018 11.1642C23.974 9.90806 24.9751 7.25616 25.2017 6.69787C25.4284 6.13957 26.0517 6 26.335 6H28.1765C29.3097 6 29.2153 7.11659 29.0264 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M12.4526 21.7718V21.6076H17.8356H23.2185V22.7242C23.2185 22.9475 22.9352 23.1429 22.6519 23.1429H13.0192C12.6793 23.1429 12.4998 22.8638 12.4526 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M30 26.7369L8 26.7369M8 26.7369L11.2353 30.0264M8 26.7369L11.2353 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-result__inner">
+            <div class="search-result__total">
+              <span class="search-result__total-info">01.02.2020</span>
+              <span class="search-result__total-info">8 ночей</span>
+              <span class="search-result__total-info">Анталия</span>
+            </div>
+            <div class="search-result__more">
+              <span class="search-result__more-price">67 800 <span class="search-result__more-valute">РУБ</span></span>
+              <a class="search-result__more-btn" href="#!">
+                <svg class="search-result__more-pic" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97919 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 4V2H10.5V4H13.5Z"
+                    fill="#C5A46D" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-result__wrapper">
+          <div class="search-result__top">
+            <img class="search-result__top-pic" src="img/search-tour/search-result-1.jpg" alt="">
+            <div class="search-result__info">
+              <div class="search-result__info search-form__rate">
+                <svg class="search-form__rate-two search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtasder0_i1)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filter02_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg
+                  class="search-form__rate-three search-form__rate-logo search-form__rate-1  search-form__rate--active"
+                  width="29" height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte2r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filte2r0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-four search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#fi2lter0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filt4er0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo search-form__rate--active" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte4r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filtaer0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtedr0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="fildter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <p class="search-result__info-title">А11 Hotel Obakoy (EX.TAKSIM INTERNATIONAL OBAKOY) 4*</p>
+              <div class="search-result__inner">
+                <div class="search-result__params">
+                  <p class="search-result__params-item">BB</p>
+                  <p class="search-result__params-item">DBL</p>
+                  <p class="search-result__params-item">TEZ TOUR</p>
+                </div>
+                <div class="search-result__detail">
+                  <a href="#!" class="search-result__detail-link search-result__detail--active">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <mask id="path-2-inside-1" fill="white">
+                        <path
+                          d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 22.2646V23.2646H13.4654V22.2646H12.4654ZM10.1324 22.2646H9.13241V23.2646H10.1324V22.2646ZM10.1324 18.5318V17.5318H9.13241V18.5318H10.1324ZM12.4654 18.5318H13.4654V17.5318H12.4654V18.5318ZM12.932 16.5986H9.66581V18.5986H12.932V16.5986ZM9.66581 16.5986C8.85584 16.5986 8.19922 17.2553 8.19922 18.0652H10.1992C10.1992 18.3598 9.96041 18.5986 9.66581 18.5986V16.5986ZM8.19922 18.0652V22.7312H10.1992V18.0652H8.19922ZM8.19922 22.7312C8.19922 23.5412 8.85584 24.1978 9.66581 24.1978V22.1978C9.96041 22.1978 10.1992 22.4366 10.1992 22.7312H8.19922ZM9.66581 24.1978H12.932V22.1978H9.66581V24.1978ZM12.932 24.1978C13.742 24.1978 14.3986 23.5412 14.3986 22.7312H12.3986C12.3986 22.4366 12.6374 22.1978 12.932 22.1978V24.1978ZM14.3986 22.7312V18.0652H12.3986V22.7312H14.3986ZM14.3986 18.0652C14.3986 17.2553 13.742 16.5986 12.932 16.5986V18.5986C12.6374 18.5986 12.3986 18.3598 12.3986 18.0652H14.3986ZM12.4654 21.2646H10.1324V23.2646H12.4654V21.2646ZM11.1324 22.2646V18.5318H9.13241V22.2646H11.1324ZM10.1324 19.5318H12.4654V17.5318H10.1324V19.5318ZM11.4654 18.5318V22.2646H13.4654V18.5318H11.4654Z"
+                        fill="#757575" mask="url(#path-2-inside-1)" />
+                      <mask id="path-4-inside-2" fill="white">
+                        <path
+                          d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 22.2646V23.2646H21.3976V22.2646H20.3976ZM18.0646 22.2646H17.0646V23.2646H18.0646V22.2646ZM18.0646 18.5318V17.5318H17.0646V18.5318H18.0646ZM20.3976 18.5318H21.3976V17.5318H20.3976V18.5318ZM20.8642 16.5986H17.5979V18.5986H20.8642V16.5986ZM17.5979 16.5986C16.788 16.5986 16.1313 17.2553 16.1313 18.0652H18.1313C18.1313 18.3598 17.8925 18.5986 17.5979 18.5986V16.5986ZM16.1313 18.0652V22.7312H18.1313V18.0652H16.1313ZM16.1313 22.7312C16.1313 23.5412 16.788 24.1978 17.5979 24.1978V22.1978C17.8925 22.1978 18.1313 22.4366 18.1313 22.7312H16.1313ZM17.5979 24.1978H20.8642V22.1978H17.5979V24.1978ZM20.8642 24.1978C21.6741 24.1978 22.3307 23.5412 22.3307 22.7312H20.3307C20.3307 22.4366 20.5696 22.1978 20.8642 22.1978V24.1978ZM22.3307 22.7312V18.0652H20.3307V22.7312H22.3307ZM22.3307 18.0652C22.3307 17.2553 21.6741 16.5986 20.8642 16.5986V18.5986C20.5696 18.5986 20.3307 18.3598 20.3307 18.0652H22.3307ZM20.3976 21.2646H18.0646V23.2646H20.3976V21.2646ZM19.0646 22.2646V18.5318H17.0646V22.2646H19.0646ZM18.0646 19.5318H20.3976V17.5318H18.0646V19.5318ZM19.3976 18.5318V22.2646H21.3976V18.5318H19.3976Z"
+                        fill="#757575" mask="url(#path-4-inside-2)" />
+                      <mask id="path-6-inside-3" fill="white">
+                        <path
+                          d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 29.7302V30.7302H21.3976V29.7302H20.3976ZM18.0646 29.7302H17.0646V30.7302H18.0646V29.7302ZM18.0646 25.9974V24.9974H17.0646V25.9974H18.0646ZM20.3976 25.9974H21.3976V24.9974H20.3976V25.9974ZM20.8642 24.0642H17.5979V26.0642H20.8642V24.0642ZM17.5979 24.0642C16.788 24.0642 16.1313 24.7208 16.1313 25.5308H18.1313C18.1313 25.8254 17.8925 26.0642 17.5979 26.0642V24.0642ZM16.1313 25.5308V30.1968H18.1313V25.5308H16.1313ZM16.1313 30.1968C16.1313 31.0068 16.788 31.6634 17.5979 31.6634V29.6634C17.8925 29.6634 18.1313 29.9022 18.1313 30.1968H16.1313ZM17.5979 31.6634H20.8642V29.6634H17.5979V31.6634ZM20.8642 31.6634C21.6741 31.6634 22.3307 31.0068 22.3307 30.1968H20.3307C20.3307 29.9022 20.5696 29.6634 20.8642 29.6634V31.6634ZM22.3307 30.1968V25.5308H20.3307V30.1968H22.3307ZM22.3307 25.5308C22.3307 24.721 21.6742 24.0642 20.8642 24.0642V26.0642C20.5695 26.0642 20.3307 25.8254 20.3307 25.5308H22.3307ZM20.3976 28.7302H18.0646V30.7302H20.3976V28.7302ZM19.0646 29.7302V25.9974H17.0646V29.7302H19.0646ZM18.0646 26.9974H20.3976V24.9974H18.0646V26.9974ZM19.3976 25.9974V29.7302H21.3976V25.9974H19.3976Z"
+                        fill="#757575" mask="url(#path-6-inside-3)" />
+                      <mask id="path-8-inside-4" fill="white">
+                        <path
+                          d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 22.2646V23.2646H28.8634V22.2646H27.8634ZM25.5304 22.2646H24.5304V23.2646H25.5304V22.2646ZM25.5304 18.5318V17.5318H24.5304V18.5318H25.5304ZM27.8634 18.5318H28.8634V17.5318H27.8634V18.5318ZM28.33 16.5986H25.0638V18.5986H28.33V16.5986ZM25.0638 16.5986C24.2538 16.5986 23.5972 17.2553 23.5972 18.0652H25.5972C25.5972 18.3598 25.3584 18.5986 25.0638 18.5986V16.5986ZM23.5972 18.0652V22.7312H25.5972V18.0652H23.5972ZM23.5972 22.7312C23.5972 23.5412 24.2538 24.1978 25.0638 24.1978V22.1978C25.3584 22.1978 25.5972 22.4366 25.5972 22.7312H23.5972ZM25.0638 24.1978H28.33V22.1978H25.0638V24.1978ZM28.33 24.1978C29.14 24.1978 29.7966 23.5412 29.7966 22.7312H27.7966C27.7966 22.4366 28.0354 22.1978 28.33 22.1978V24.1978ZM29.7966 22.7312V18.0652H27.7966V22.7312H29.7966ZM29.7966 18.0652C29.7966 17.2553 29.1399 16.5986 28.33 16.5986V18.5986C28.0354 18.5986 27.7966 18.3598 27.7966 18.0652H29.7966ZM27.8634 21.2646H25.5304V23.2646H27.8634V21.2646ZM26.5304 22.2646V18.5318H24.5304V22.2646H26.5304ZM25.5304 19.5318H27.8634V17.5318H25.5304V19.5318ZM26.8634 18.5318V22.2646H28.8634V18.5318H26.8634Z"
+                        fill="#757575" mask="url(#path-8-inside-4)" />
+                      <mask id="path-10-inside-5" fill="white">
+                        <path
+                          d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 29.7302V30.7302H13.4654V29.7302H12.4654ZM10.1324 29.7302H9.13241V30.7302H10.1324V29.7302ZM10.1324 25.9974V24.9974H9.13241V25.9974H10.1324ZM12.4654 25.9974H13.4654V24.9974H12.4654V25.9974ZM12.932 24.0642H9.66581V26.0642H12.932V24.0642ZM9.66581 24.0642C8.85584 24.0642 8.19922 24.7208 8.19922 25.5308H10.1992C10.1992 25.8254 9.96041 26.0642 9.66581 26.0642V24.0642ZM8.19922 25.5308V30.1968H10.1992V25.5308H8.19922ZM8.19922 30.1968C8.19922 31.0068 8.85584 31.6634 9.66581 31.6634V29.6634C9.96041 29.6634 10.1992 29.9022 10.1992 30.1968H8.19922ZM9.66581 31.6634H12.932V29.6634H9.66581V31.6634ZM12.932 31.6634C13.742 31.6634 14.3986 31.0068 14.3986 30.1968H12.3986C12.3986 29.9022 12.6374 29.6634 12.932 29.6634V31.6634ZM14.3986 30.1968V25.5308H12.3986V30.1968H14.3986ZM14.3986 25.5308C14.3986 24.721 13.7421 24.0642 12.932 24.0642V26.0642C12.6373 26.0642 12.3986 25.8254 12.3986 25.5308H14.3986ZM12.4654 28.7302H10.1324V30.7302H12.4654V28.7302ZM11.1324 29.7302V25.9974H9.13241V29.7302H11.1324ZM10.1324 26.9974H12.4654V24.9974H10.1324V26.9974ZM11.4654 25.9974V29.7302H13.4654V25.9974H11.4654Z"
+                        fill="#757575" mask="url(#path-10-inside-5)" />
+                      <mask id="path-12-inside-6" fill="white">
+                        <path
+                          d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 29.7302V30.7302H28.8634V29.7302H27.8634ZM25.5304 29.7302H24.5304V30.7302H25.5304V29.7302ZM25.5304 25.9974V24.9974H24.5304V25.9974H25.5304ZM27.8634 25.9974H28.8634V24.9974H27.8634V25.9974ZM28.33 24.0642H25.0638V26.0642H28.33V24.0642ZM25.0638 24.0642C24.2538 24.0642 23.5972 24.7208 23.5972 25.5308H25.5972C25.5972 25.8254 25.3584 26.0642 25.0638 26.0642V24.0642ZM23.5972 25.5308V30.1968H25.5972V25.5308H23.5972ZM23.5972 30.1968C23.5972 31.0068 24.2538 31.6634 25.0638 31.6634V29.6634C25.3584 29.6634 25.5972 29.9022 25.5972 30.1968H23.5972ZM25.0638 31.6634H28.33V29.6634H25.0638V31.6634ZM28.33 31.6634C29.14 31.6634 29.7966 31.0068 29.7966 30.1968H27.7966C27.7966 29.9022 28.0354 29.6634 28.33 29.6634V31.6634ZM29.7966 30.1968V25.5308H27.7966V30.1968H29.7966ZM29.7966 25.5308C29.7966 24.721 29.14 24.0642 28.33 24.0642V26.0642C28.0353 26.0642 27.7966 25.8254 27.7966 25.5308H29.7966ZM27.8634 28.7302H25.5304V30.7302H27.8634V28.7302ZM26.5304 29.7302V25.9974H24.5304V29.7302H26.5304ZM25.5304 26.9974H27.8634V24.9974H25.5304V26.9974ZM26.8634 25.9974V29.7302H28.8634V25.9974H26.8634Z"
+                        fill="#757575" mask="url(#path-12-inside-6)" />
+                      <path d="M31.1296 32.4958H30.6964V32.0628L31.1296 32.0627V32.4958Z" fill="#222222"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M29.8753 12.0277L29.8752 12.0276C28.3779 11.1549 26.6282 11.5964 25.3297 12.2019L21.3477 14.0588L21.1281 14.1612L20.9117 14.0523L14.1793 10.6662L11.3566 10.7875L16.2206 15.7185L16.7146 16.2193L16.0791 16.5212L12.475 18.2333L12.2821 18.3249L12.0826 18.249L8.53035 16.8971L6.78971 17.7087L8.65834 20.0292L8.91601 20.3491L8.65211 20.664C8.56356 20.7696 8.49765 20.8735 8.46203 20.9686L8.60669 20.7706C8.67925 20.6713 8.7917 20.5464 8.96889 20.3905L8.9689 20.3904L8.97935 20.3812L7.23606 18.2165L6.8358 17.7195L7.41416 17.4497L8.33976 17.0181L8.53136 16.9287L8.72894 17.0039L12.2832 18.3567L16.7642 16.2281L12.2149 11.6161L11.4236 10.8138L12.5494 10.7654L14.0429 10.7013L14.1729 10.6957L14.289 10.7541L21.1275 14.1935L25.342 12.2284C27.04 11.4366 28.5916 11.3135 29.8604 12.0528L29.8604 12.0528L29.9164 12.0854L29.919 12.0881C30.0573 12.1739 30.1701 12.2638 30.2562 12.3555C30.3049 12.4072 30.3524 12.4674 30.3902 12.5354C30.4206 12.5902 30.4762 12.7053 30.4702 12.8532C30.4702 12.8542 30.4702 12.8552 30.4701 12.8562L29.9706 12.8332C29.9705 12.8369 29.9396 13.206 28.6916 13.7879L29.8753 12.0277ZM29.8753 12.0277C30.1885 12.2102 30.3398 12.386 30.4145 12.5183C30.4884 12.649 30.5036 12.7655 30.4994 12.8574C30.4916 13.0298 30.4103 13.2342 30.1619 13.4783C29.9082 13.7277 29.5044 13.9929 28.9154 14.2676L29.8753 12.0277Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M8 26.7369H30M30 26.7369L26.7647 23.4474M30 26.7369L26.7647 30.0263"
+                          stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect x="6" y="7" width="25" height="25" rx="3" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M7.12473 12.0277L7.12479 12.0276C8.62214 11.1549 10.3718 11.5964 11.6703 12.2019L15.6523 14.0588L15.8719 14.1612L16.0883 14.0523L22.8207 10.6662L25.6434 10.7875L20.7794 15.7185L20.2854 16.2193L20.9209 16.5212L24.525 18.2333L24.7179 18.3249L24.9174 18.249L28.4696 16.8971L30.2103 17.7087L28.3417 20.0292L28.084 20.3491L28.3479 20.6639C28.4364 20.7696 28.5023 20.8735 28.538 20.9686L28.3933 20.7706C28.3208 20.6713 28.2083 20.5464 28.0311 20.3904L28.0311 20.3904L28.0206 20.3812L29.7639 18.2165L30.1642 17.7195L29.5858 17.4497L28.6602 17.0181L28.4686 16.9287L28.2711 17.0039L24.7168 18.3567L20.2358 16.2281L24.7851 11.6161L25.5764 10.8138L24.4506 10.7654L22.9571 10.7013L22.8271 10.6957L22.711 10.7541L15.8725 14.1935L11.658 12.2284C9.96001 11.4366 8.4084 11.3135 7.13962 12.0528L7.13959 12.0528L7.08413 12.0851L7.0815 12.0877C6.94298 12.1736 6.83003 12.2637 6.74376 12.3555C6.69513 12.4072 6.64762 12.4674 6.60982 12.5354C6.57936 12.5902 6.52378 12.7053 6.52976 12.8532C6.5298 12.8542 6.52984 12.8552 6.52989 12.8562L7.02936 12.8332C7.02946 12.8369 7.06039 13.206 8.30835 13.7879L7.12473 12.0277ZM7.12473 12.0277C6.81147 12.2102 6.66023 12.386 6.58548 12.5183C6.51155 12.649 6.49638 12.7655 6.50057 12.8574C6.50844 13.0298 6.58975 13.2342 6.83806 13.4783C7.09175 13.7277 7.49556 13.9929 8.0846 14.2676C8.0846 14.2676 8.08461 14.2676 8.08461 14.2676L22.3188 20.9051C23.179 21.3062 24.6028 21.6462 25.933 21.7513L25.9331 21.7513C26.2188 21.7739 26.4822 21.7849 26.7232 21.7849H26.7233C27.3175 21.7849 27.7548 21.7177 28.0568 21.6072C28.2262 21.5452 28.3405 21.4746 28.418 21.403M7.12473 12.0277L28.418 21.403M28.418 21.403L28.2261 21.506C28.0298 21.6115 27.7313 21.6851 27.3572 21.7236C26.969 21.7636 26.4579 21.7697 25.8092 21.7115C24.553 21.5987 23.1919 21.28 22.3312 20.8786L8.09707 14.241L28.418 21.403Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M30 26.7369H8M8 26.7369L11.2353 23.4474M8 26.7369L11.2353 30.0263" stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="25" height="25" fill="white" transform="matrix(-1 0 0 1 31 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="search-result__detail-link" href="#!">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M8.97358 7.67488L12.515 18.8408C12.7275 19.5107 13.4534 19.7713 13.7899 19.8178H26.6807C27.4739 19.8178 27.4834 19.1665 27.3889 18.8408C27.1528 18.3755 26.5673 17.2496 26.114 16.468C25.6607 15.6864 24.9808 15.491 24.6975 15.491L22.7143 15.3514C22.5726 15.0723 22.2326 14.3465 22.006 13.6766C21.7793 13.0066 20.8727 12.7461 20.4477 12.6995C19.5034 12.6065 17.3596 12.3925 16.3397 12.2808C15.3198 12.1692 14.687 11.4899 14.4982 11.1642C14.026 9.90806 13.0249 7.25616 12.7983 6.69787C12.5716 6.13957 11.9483 6 11.665 6H9.82352C8.69026 6 8.7847 7.11659 8.97358 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M25.5474 21.7718V21.6076H20.1644H14.7815V22.7242C14.7815 22.9475 15.0648 23.1429 15.3481 23.1429H24.9808C25.3207 23.1429 25.5002 22.8638 25.5474 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M8 26.7369L30 26.7369M30 26.7369L26.7647 30.0264M30 26.7369L26.7647 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M29.0264 7.67488L25.485 18.8408C25.2725 19.5107 24.5466 19.7713 24.2101 19.8178H11.3193C10.5261 19.8178 10.5166 19.1665 10.6111 18.8408C10.8472 18.3755 11.4327 17.2496 11.886 16.468C12.3393 15.6864 13.0192 15.491 13.3025 15.491L15.2857 15.3514C15.4274 15.0723 15.7674 14.3465 15.994 13.6766C16.2207 13.0066 17.1273 12.7461 17.5523 12.6995C18.4966 12.6065 20.6404 12.3925 21.6603 12.2808C22.6802 12.1692 23.313 11.4899 23.5018 11.1642C23.974 9.90806 24.9751 7.25616 25.2017 6.69787C25.4284 6.13957 26.0517 6 26.335 6H28.1765C29.3097 6 29.2153 7.11659 29.0264 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M12.4526 21.7718V21.6076H17.8356H23.2185V22.7242C23.2185 22.9475 22.9352 23.1429 22.6519 23.1429H13.0192C12.6793 23.1429 12.4998 22.8638 12.4526 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M30 26.7369L8 26.7369M8 26.7369L11.2353 30.0264M8 26.7369L11.2353 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-result__inner">
+            <div class="search-result__total">
+              <span class="search-result__total-info">01.02.2020</span>
+              <span class="search-result__total-info">8 ночей</span>
+              <span class="search-result__total-info">Анталия</span>
+            </div>
+            <div class="search-result__more">
+              <span class="search-result__more-price">67 800 <span class="search-result__more-valute">РУБ</span></span>
+              <a class="search-result__more-btn" href="#!">
+                <svg class="search-result__more-pic" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97919 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 4V2H10.5V4H13.5Z"
+                    fill="#C5A46D" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-result__wrapper">
+          <div class="search-result__top">
+            <img class="search-result__top-pic" src="img/search-tour/search-result-1.jpg" alt="">
+            <div class="search-result__info">
+              <div class="search-result__info search-form__rate">
+                <svg class="search-form__rate-two search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtasder0_i1)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filter02_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+                <svg
+                  class="search-form__rate-three search-form__rate-logo search-form__rate-1  search-form__rate--active"
+                  width="29" height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte2r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filte2r0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-four search-form__rate-logo search-form__rate--active" width="29"
+                  height="27" viewBox="0 0 29 27" xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#fi2lter0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filt4er0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo search-form__rate--active" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filte4r0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="filtaer0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+
+                <svg class="search-form__rate-logo" width="29" height="27" viewBox="0 0 29 27"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <g filter="url(#filtedr0_i)">
+                    <path
+                      d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                      fill="white" />
+                  </g>
+                  <path
+                    d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                    stroke="#A5D9FF" />
+                  <defs>
+                    <filter id="fildter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                      filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha" />
+                      <feOffset dy="4" />
+                      <feGaussianBlur stdDeviation="2" />
+                      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                      <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                    </filter>
+                  </defs>
+                </svg>
+
+              </div>
+              <p class="search-result__info-title">А11 Hotel Obakoy (EX.TAKSIM INTERNATIONAL OBAKOY) 4*</p>
+              <div class="search-result__inner">
+                <div class="search-result__params">
+                  <p class="search-result__params-item">BB</p>
+                  <p class="search-result__params-item">DBL</p>
+                  <p class="search-result__params-item">TEZ TOUR</p>
+                </div>
+                <div class="search-result__detail">
+                  <a href="#!" class="search-result__detail-link search-result__detail--active">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <mask id="path-2-inside-1" fill="white">
+                        <path
+                          d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M12.932 17.5986H9.66581C9.40812 17.5986 9.19922 17.8075 9.19922 18.0652V22.7312C9.19922 22.9889 9.40812 23.1978 9.66581 23.1978H12.932C13.1897 23.1978 13.3986 22.9889 13.3986 22.7312V18.0652C13.3986 17.8075 13.1897 17.5986 12.932 17.5986ZM12.4654 22.2646H10.1324V18.5318H12.4654V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 22.2646V23.2646H13.4654V22.2646H12.4654ZM10.1324 22.2646H9.13241V23.2646H10.1324V22.2646ZM10.1324 18.5318V17.5318H9.13241V18.5318H10.1324ZM12.4654 18.5318H13.4654V17.5318H12.4654V18.5318ZM12.932 16.5986H9.66581V18.5986H12.932V16.5986ZM9.66581 16.5986C8.85584 16.5986 8.19922 17.2553 8.19922 18.0652H10.1992C10.1992 18.3598 9.96041 18.5986 9.66581 18.5986V16.5986ZM8.19922 18.0652V22.7312H10.1992V18.0652H8.19922ZM8.19922 22.7312C8.19922 23.5412 8.85584 24.1978 9.66581 24.1978V22.1978C9.96041 22.1978 10.1992 22.4366 10.1992 22.7312H8.19922ZM9.66581 24.1978H12.932V22.1978H9.66581V24.1978ZM12.932 24.1978C13.742 24.1978 14.3986 23.5412 14.3986 22.7312H12.3986C12.3986 22.4366 12.6374 22.1978 12.932 22.1978V24.1978ZM14.3986 22.7312V18.0652H12.3986V22.7312H14.3986ZM14.3986 18.0652C14.3986 17.2553 13.742 16.5986 12.932 16.5986V18.5986C12.6374 18.5986 12.3986 18.3598 12.3986 18.0652H14.3986ZM12.4654 21.2646H10.1324V23.2646H12.4654V21.2646ZM11.1324 22.2646V18.5318H9.13241V22.2646H11.1324ZM10.1324 19.5318H12.4654V17.5318H10.1324V19.5318ZM11.4654 18.5318V22.2646H13.4654V18.5318H11.4654Z"
+                        fill="#757575" mask="url(#path-2-inside-1)" />
+                      <mask id="path-4-inside-2" fill="white">
+                        <path
+                          d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 17.5986H17.5979C17.3403 17.5986 17.1313 17.8075 17.1313 18.0652V22.7312C17.1313 22.9889 17.3403 23.1978 17.5979 23.1978H20.8642C21.1218 23.1978 21.3307 22.9889 21.3307 22.7312V18.0652C21.3307 17.8075 21.1218 17.5986 20.8642 17.5986ZM20.3976 22.2646H18.0646V18.5318H20.3976V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 22.2646V23.2646H21.3976V22.2646H20.3976ZM18.0646 22.2646H17.0646V23.2646H18.0646V22.2646ZM18.0646 18.5318V17.5318H17.0646V18.5318H18.0646ZM20.3976 18.5318H21.3976V17.5318H20.3976V18.5318ZM20.8642 16.5986H17.5979V18.5986H20.8642V16.5986ZM17.5979 16.5986C16.788 16.5986 16.1313 17.2553 16.1313 18.0652H18.1313C18.1313 18.3598 17.8925 18.5986 17.5979 18.5986V16.5986ZM16.1313 18.0652V22.7312H18.1313V18.0652H16.1313ZM16.1313 22.7312C16.1313 23.5412 16.788 24.1978 17.5979 24.1978V22.1978C17.8925 22.1978 18.1313 22.4366 18.1313 22.7312H16.1313ZM17.5979 24.1978H20.8642V22.1978H17.5979V24.1978ZM20.8642 24.1978C21.6741 24.1978 22.3307 23.5412 22.3307 22.7312H20.3307C20.3307 22.4366 20.5696 22.1978 20.8642 22.1978V24.1978ZM22.3307 22.7312V18.0652H20.3307V22.7312H22.3307ZM22.3307 18.0652C22.3307 17.2553 21.6741 16.5986 20.8642 16.5986V18.5986C20.5696 18.5986 20.3307 18.3598 20.3307 18.0652H22.3307ZM20.3976 21.2646H18.0646V23.2646H20.3976V21.2646ZM19.0646 22.2646V18.5318H17.0646V22.2646H19.0646ZM18.0646 19.5318H20.3976V17.5318H18.0646V19.5318ZM19.3976 18.5318V22.2646H21.3976V18.5318H19.3976Z"
+                        fill="#757575" mask="url(#path-4-inside-2)" />
+                      <mask id="path-6-inside-3" fill="white">
+                        <path
+                          d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M20.8642 25.0642H17.5979C17.3403 25.0642 17.1313 25.2731 17.1313 25.5308V30.1968C17.1313 30.4545 17.3403 30.6634 17.5979 30.6634H20.8642C21.1218 30.6634 21.3307 30.4545 21.3307 30.1968V25.5308C21.3307 25.2732 21.1218 25.0642 20.8642 25.0642ZM20.3976 29.7302H18.0646V25.9974H20.3976V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M20.3976 29.7302V30.7302H21.3976V29.7302H20.3976ZM18.0646 29.7302H17.0646V30.7302H18.0646V29.7302ZM18.0646 25.9974V24.9974H17.0646V25.9974H18.0646ZM20.3976 25.9974H21.3976V24.9974H20.3976V25.9974ZM20.8642 24.0642H17.5979V26.0642H20.8642V24.0642ZM17.5979 24.0642C16.788 24.0642 16.1313 24.7208 16.1313 25.5308H18.1313C18.1313 25.8254 17.8925 26.0642 17.5979 26.0642V24.0642ZM16.1313 25.5308V30.1968H18.1313V25.5308H16.1313ZM16.1313 30.1968C16.1313 31.0068 16.788 31.6634 17.5979 31.6634V29.6634C17.8925 29.6634 18.1313 29.9022 18.1313 30.1968H16.1313ZM17.5979 31.6634H20.8642V29.6634H17.5979V31.6634ZM20.8642 31.6634C21.6741 31.6634 22.3307 31.0068 22.3307 30.1968H20.3307C20.3307 29.9022 20.5696 29.6634 20.8642 29.6634V31.6634ZM22.3307 30.1968V25.5308H20.3307V30.1968H22.3307ZM22.3307 25.5308C22.3307 24.721 21.6742 24.0642 20.8642 24.0642V26.0642C20.5695 26.0642 20.3307 25.8254 20.3307 25.5308H22.3307ZM20.3976 28.7302H18.0646V30.7302H20.3976V28.7302ZM19.0646 29.7302V25.9974H17.0646V29.7302H19.0646ZM18.0646 26.9974H20.3976V24.9974H18.0646V26.9974ZM19.3976 25.9974V29.7302H21.3976V25.9974H19.3976Z"
+                        fill="#757575" mask="url(#path-6-inside-3)" />
+                      <mask id="path-8-inside-4" fill="white">
+                        <path
+                          d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z" />
+                      </mask>
+                      <path
+                        d="M28.33 17.5986H25.0638C24.8061 17.5986 24.5972 17.8075 24.5972 18.0652V22.7312C24.5972 22.9889 24.8061 23.1978 25.0638 23.1978H28.33C28.5877 23.1978 28.7966 22.9889 28.7966 22.7312V18.0652C28.7966 17.8075 28.5877 17.5986 28.33 17.5986ZM27.8634 22.2646H25.5304V18.5318H27.8634V22.2646Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 22.2646V23.2646H28.8634V22.2646H27.8634ZM25.5304 22.2646H24.5304V23.2646H25.5304V22.2646ZM25.5304 18.5318V17.5318H24.5304V18.5318H25.5304ZM27.8634 18.5318H28.8634V17.5318H27.8634V18.5318ZM28.33 16.5986H25.0638V18.5986H28.33V16.5986ZM25.0638 16.5986C24.2538 16.5986 23.5972 17.2553 23.5972 18.0652H25.5972C25.5972 18.3598 25.3584 18.5986 25.0638 18.5986V16.5986ZM23.5972 18.0652V22.7312H25.5972V18.0652H23.5972ZM23.5972 22.7312C23.5972 23.5412 24.2538 24.1978 25.0638 24.1978V22.1978C25.3584 22.1978 25.5972 22.4366 25.5972 22.7312H23.5972ZM25.0638 24.1978H28.33V22.1978H25.0638V24.1978ZM28.33 24.1978C29.14 24.1978 29.7966 23.5412 29.7966 22.7312H27.7966C27.7966 22.4366 28.0354 22.1978 28.33 22.1978V24.1978ZM29.7966 22.7312V18.0652H27.7966V22.7312H29.7966ZM29.7966 18.0652C29.7966 17.2553 29.1399 16.5986 28.33 16.5986V18.5986C28.0354 18.5986 27.7966 18.3598 27.7966 18.0652H29.7966ZM27.8634 21.2646H25.5304V23.2646H27.8634V21.2646ZM26.5304 22.2646V18.5318H24.5304V22.2646H26.5304ZM25.5304 19.5318H27.8634V17.5318H25.5304V19.5318ZM26.8634 18.5318V22.2646H28.8634V18.5318H26.8634Z"
+                        fill="#757575" mask="url(#path-8-inside-4)" />
+                      <mask id="path-10-inside-5" fill="white">
+                        <path
+                          d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M12.932 25.0642H9.66581C9.40812 25.0642 9.19922 25.2731 9.19922 25.5308V30.1968C9.19922 30.4545 9.40812 30.6634 9.66581 30.6634H12.932C13.1897 30.6634 13.3986 30.4545 13.3986 30.1968V25.5308C13.3986 25.2732 13.1897 25.0642 12.932 25.0642ZM12.4654 29.7302H10.1324V25.9974H12.4654V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M12.4654 29.7302V30.7302H13.4654V29.7302H12.4654ZM10.1324 29.7302H9.13241V30.7302H10.1324V29.7302ZM10.1324 25.9974V24.9974H9.13241V25.9974H10.1324ZM12.4654 25.9974H13.4654V24.9974H12.4654V25.9974ZM12.932 24.0642H9.66581V26.0642H12.932V24.0642ZM9.66581 24.0642C8.85584 24.0642 8.19922 24.7208 8.19922 25.5308H10.1992C10.1992 25.8254 9.96041 26.0642 9.66581 26.0642V24.0642ZM8.19922 25.5308V30.1968H10.1992V25.5308H8.19922ZM8.19922 30.1968C8.19922 31.0068 8.85584 31.6634 9.66581 31.6634V29.6634C9.96041 29.6634 10.1992 29.9022 10.1992 30.1968H8.19922ZM9.66581 31.6634H12.932V29.6634H9.66581V31.6634ZM12.932 31.6634C13.742 31.6634 14.3986 31.0068 14.3986 30.1968H12.3986C12.3986 29.9022 12.6374 29.6634 12.932 29.6634V31.6634ZM14.3986 30.1968V25.5308H12.3986V30.1968H14.3986ZM14.3986 25.5308C14.3986 24.721 13.7421 24.0642 12.932 24.0642V26.0642C12.6373 26.0642 12.3986 25.8254 12.3986 25.5308H14.3986ZM12.4654 28.7302H10.1324V30.7302H12.4654V28.7302ZM11.1324 29.7302V25.9974H9.13241V29.7302H11.1324ZM10.1324 26.9974H12.4654V24.9974H10.1324V26.9974ZM11.4654 25.9974V29.7302H13.4654V25.9974H11.4654Z"
+                        fill="#757575" mask="url(#path-10-inside-5)" />
+                      <mask id="path-12-inside-6" fill="white">
+                        <path
+                          d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z" />
+                      </mask>
+                      <path
+                        d="M28.33 25.0642H25.0638C24.8061 25.0642 24.5972 25.2731 24.5972 25.5308V30.1968C24.5972 30.4545 24.8061 30.6634 25.0638 30.6634H28.33C28.5877 30.6634 28.7966 30.4545 28.7966 30.1968V25.5308C28.7966 25.2732 28.5877 25.0642 28.33 25.0642ZM27.8634 29.7302H25.5304V25.9974H27.8634V29.7302Z"
+                        fill="#222222" />
+                      <path
+                        d="M27.8634 29.7302V30.7302H28.8634V29.7302H27.8634ZM25.5304 29.7302H24.5304V30.7302H25.5304V29.7302ZM25.5304 25.9974V24.9974H24.5304V25.9974H25.5304ZM27.8634 25.9974H28.8634V24.9974H27.8634V25.9974ZM28.33 24.0642H25.0638V26.0642H28.33V24.0642ZM25.0638 24.0642C24.2538 24.0642 23.5972 24.7208 23.5972 25.5308H25.5972C25.5972 25.8254 25.3584 26.0642 25.0638 26.0642V24.0642ZM23.5972 25.5308V30.1968H25.5972V25.5308H23.5972ZM23.5972 30.1968C23.5972 31.0068 24.2538 31.6634 25.0638 31.6634V29.6634C25.3584 29.6634 25.5972 29.9022 25.5972 30.1968H23.5972ZM25.0638 31.6634H28.33V29.6634H25.0638V31.6634ZM28.33 31.6634C29.14 31.6634 29.7966 31.0068 29.7966 30.1968H27.7966C27.7966 29.9022 28.0354 29.6634 28.33 29.6634V31.6634ZM29.7966 30.1968V25.5308H27.7966V30.1968H29.7966ZM29.7966 25.5308C29.7966 24.721 29.14 24.0642 28.33 24.0642V26.0642C28.0353 26.0642 27.7966 25.8254 27.7966 25.5308H29.7966ZM27.8634 28.7302H25.5304V30.7302H27.8634V28.7302ZM26.5304 29.7302V25.9974H24.5304V29.7302H26.5304ZM25.5304 26.9974H27.8634V24.9974H25.5304V26.9974ZM26.8634 25.9974V29.7302H28.8634V25.9974H26.8634Z"
+                        fill="#757575" mask="url(#path-12-inside-6)" />
+                      <path d="M31.1296 32.4958H30.6964V32.0628L31.1296 32.0627V32.4958Z" fill="#222222"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M29.8753 12.0277L29.8752 12.0276C28.3779 11.1549 26.6282 11.5964 25.3297 12.2019L21.3477 14.0588L21.1281 14.1612L20.9117 14.0523L14.1793 10.6662L11.3566 10.7875L16.2206 15.7185L16.7146 16.2193L16.0791 16.5212L12.475 18.2333L12.2821 18.3249L12.0826 18.249L8.53035 16.8971L6.78971 17.7087L8.65834 20.0292L8.91601 20.3491L8.65211 20.664C8.56356 20.7696 8.49765 20.8735 8.46203 20.9686L8.60669 20.7706C8.67925 20.6713 8.7917 20.5464 8.96889 20.3905L8.9689 20.3904L8.97935 20.3812L7.23606 18.2165L6.8358 17.7195L7.41416 17.4497L8.33976 17.0181L8.53136 16.9287L8.72894 17.0039L12.2832 18.3567L16.7642 16.2281L12.2149 11.6161L11.4236 10.8138L12.5494 10.7654L14.0429 10.7013L14.1729 10.6957L14.289 10.7541L21.1275 14.1935L25.342 12.2284C27.04 11.4366 28.5916 11.3135 29.8604 12.0528L29.8604 12.0528L29.9164 12.0854L29.919 12.0881C30.0573 12.1739 30.1701 12.2638 30.2562 12.3555C30.3049 12.4072 30.3524 12.4674 30.3902 12.5354C30.4206 12.5902 30.4762 12.7053 30.4702 12.8532C30.4702 12.8542 30.4702 12.8552 30.4701 12.8562L29.9706 12.8332C29.9705 12.8369 29.9396 13.206 28.6916 13.7879L29.8753 12.0277ZM29.8753 12.0277C30.1885 12.2102 30.3398 12.386 30.4145 12.5183C30.4884 12.649 30.5036 12.7655 30.4994 12.8574C30.4916 13.0298 30.4103 13.2342 30.1619 13.4783C29.9082 13.7277 29.5044 13.9929 28.9154 14.2676L29.8753 12.0277Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M8 26.7369H30M30 26.7369L26.7647 23.4474M30 26.7369L26.7647 30.0263"
+                          stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect x="6" y="7" width="25" height="25" rx="3" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M7.12473 12.0277L7.12479 12.0276C8.62214 11.1549 10.3718 11.5964 11.6703 12.2019L15.6523 14.0588L15.8719 14.1612L16.0883 14.0523L22.8207 10.6662L25.6434 10.7875L20.7794 15.7185L20.2854 16.2193L20.9209 16.5212L24.525 18.2333L24.7179 18.3249L24.9174 18.249L28.4696 16.8971L30.2103 17.7087L28.3417 20.0292L28.084 20.3491L28.3479 20.6639C28.4364 20.7696 28.5023 20.8735 28.538 20.9686L28.3933 20.7706C28.3208 20.6713 28.2083 20.5464 28.0311 20.3904L28.0311 20.3904L28.0206 20.3812L29.7639 18.2165L30.1642 17.7195L29.5858 17.4497L28.6602 17.0181L28.4686 16.9287L28.2711 17.0039L24.7168 18.3567L20.2358 16.2281L24.7851 11.6161L25.5764 10.8138L24.4506 10.7654L22.9571 10.7013L22.8271 10.6957L22.711 10.7541L15.8725 14.1935L11.658 12.2284C9.96001 11.4366 8.4084 11.3135 7.13962 12.0528L7.13959 12.0528L7.08413 12.0851L7.0815 12.0877C6.94298 12.1736 6.83003 12.2637 6.74376 12.3555C6.69513 12.4072 6.64762 12.4674 6.60982 12.5354C6.57936 12.5902 6.52378 12.7053 6.52976 12.8532C6.5298 12.8542 6.52984 12.8552 6.52989 12.8562L7.02936 12.8332C7.02946 12.8369 7.06039 13.206 8.30835 13.7879L7.12473 12.0277ZM7.12473 12.0277C6.81147 12.2102 6.66023 12.386 6.58548 12.5183C6.51155 12.649 6.49638 12.7655 6.50057 12.8574C6.50844 13.0298 6.58975 13.2342 6.83806 13.4783C7.09175 13.7277 7.49556 13.9929 8.0846 14.2676C8.0846 14.2676 8.08461 14.2676 8.08461 14.2676L22.3188 20.9051C23.179 21.3062 24.6028 21.6462 25.933 21.7513L25.9331 21.7513C26.2188 21.7739 26.4822 21.7849 26.7232 21.7849H26.7233C27.3175 21.7849 27.7548 21.7177 28.0568 21.6072C28.2262 21.5452 28.3405 21.4746 28.418 21.403M7.12473 12.0277L28.418 21.403M28.418 21.403L28.2261 21.506C28.0298 21.6115 27.7313 21.6851 27.3572 21.7236C26.969 21.7636 26.4579 21.7697 25.8092 21.7115C24.553 21.5987 23.1919 21.28 22.3312 20.8786L8.09707 14.241L28.418 21.403Z"
+                          fill="#222222" stroke="#757575" />
+                        <path d="M30 26.7369H8M8 26.7369L11.2353 23.4474M8 26.7369L11.2353 30.0263" stroke="#757575" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="25" height="25" fill="white" transform="matrix(-1 0 0 1 31 7)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a class="search-result__detail-link" href="#!">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M8.97358 7.67488L12.515 18.8408C12.7275 19.5107 13.4534 19.7713 13.7899 19.8178H26.6807C27.4739 19.8178 27.4834 19.1665 27.3889 18.8408C27.1528 18.3755 26.5673 17.2496 26.114 16.468C25.6607 15.6864 24.9808 15.491 24.6975 15.491L22.7143 15.3514C22.5726 15.0723 22.2326 14.3465 22.006 13.6766C21.7793 13.0066 20.8727 12.7461 20.4477 12.6995C19.5034 12.6065 17.3596 12.3925 16.3397 12.2808C15.3198 12.1692 14.687 11.4899 14.4982 11.1642C14.026 9.90806 13.0249 7.25616 12.7983 6.69787C12.5716 6.13957 11.9483 6 11.665 6H9.82352C8.69026 6 8.7847 7.11659 8.97358 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M25.5474 21.7718V21.6076H20.1644H14.7815V22.7242C14.7815 22.9475 15.0648 23.1429 15.3481 23.1429H24.9808C25.3207 23.1429 25.5002 22.8638 25.5474 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M8 26.7369L30 26.7369M30 26.7369L26.7647 30.0264M30 26.7369L26.7647 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                  <a href="#!" class="search-result__detail-link">
+                    <svg class="search-result__detail-logo" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <rect width="38" height="38" rx="3" fill="#F5F5F5" />
+                      <path
+                        d="M29.0264 7.67488L25.485 18.8408C25.2725 19.5107 24.5466 19.7713 24.2101 19.8178H11.3193C10.5261 19.8178 10.5166 19.1665 10.6111 18.8408C10.8472 18.3755 11.4327 17.2496 11.886 16.468C12.3393 15.6864 13.0192 15.491 13.3025 15.491L15.2857 15.3514C15.4274 15.0723 15.7674 14.3465 15.994 13.6766C16.2207 13.0066 17.1273 12.7461 17.5523 12.6995C18.4966 12.6065 20.6404 12.3925 21.6603 12.2808C22.6802 12.1692 23.313 11.4899 23.5018 11.1642C23.974 9.90806 24.9751 7.25616 25.2017 6.69787C25.4284 6.13957 26.0517 6 26.335 6H28.1765C29.3097 6 29.2153 7.11659 29.0264 7.67488Z"
+                        stroke="#757575" />
+                      <path
+                        d="M12.4526 21.7718V21.6076H17.8356H23.2185V22.7242C23.2185 22.9475 22.9352 23.1429 22.6519 23.1429H13.0192C12.6793 23.1429 12.4998 22.8638 12.4526 21.7718Z"
+                        stroke="#757575" />
+                      <path d="M30 26.7369L8 26.7369M8 26.7369L11.2353 30.0264M8 26.7369L11.2353 23.4474"
+                        stroke="#757575" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search-result__inner">
+            <div class="search-result__total">
+              <span class="search-result__total-info">01.02.2020</span>
+              <span class="search-result__total-info">8 ночей</span>
+              <span class="search-result__total-info">Анталия</span>
+            </div>
+            <div class="search-result__more">
+              <span class="search-result__more-price">67 800 <span class="search-result__more-valute">РУБ</span></span>
+              <a class="search-result__more-btn" href="#!">
+                <svg class="search-result__more-pic" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97919 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 4V2H10.5V4H13.5Z"
+                    fill="#C5A46D" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- search-result end  -->
+
+  </main>
+
+
+
+
+  <!-- footer start  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <a class="footer-logo__link" href="#!">
+            <img class="footer-logo__link-pic" src="img/svg/header-logo.svg" alt=""> <br>
+            <span class="footer-logo__link-text">Sarabi Special Service</span>
+          </a>
+          <div class="footer-logo__social">
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="30" height="30" viewBox="0 0 30 30"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M27 0H3C1.35 0 0 1.35 0 3V27C0 28.65 1.35 30 3 30H27C28.65 30 30 28.65 30 27V3C30 1.35 28.65 0 27 0ZM15 9C18.3 9 21 11.7 21 15C21 18.3 18.3 21 15 21C11.7 21 9 18.3 9 15C9 11.7 11.7 9 15 9ZM3.75 27C3.3 27 3 26.7 3 26.25V13.5H6.15C6 13.95 6 14.55 6 15C6 19.95 10.05 24 15 24C19.95 24 24 19.95 24 15C24 14.55 24 13.95 23.85 13.5H27V26.25C27 26.7 26.7 27 26.25 27H3.75ZM27 6.75C27 7.2 26.7 7.5 26.25 7.5H23.25C22.8 7.5 22.5 7.2 22.5 6.75V3.75C22.5 3.3 22.8 3 23.25 3H26.25C26.7 3 27 3.3 27 3.75V6.75Z"
+                  fill="#757575" />
+              </svg>
+            </a>
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="16" height="30" viewBox="0 0 16 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.3975 0.006242L11.5598 0C7.24832 0 4.46205 2.89785 4.46205 7.38304V10.7871H0.603437C0.270007 10.7871 0 11.0611 0 11.3991V16.3313C0 16.6693 0.270315 16.943 0.603437 16.943H4.46205V29.3883C4.46205 29.7263 4.73205 30 5.06548 30H10.0999C10.4333 30 10.7033 29.726 10.7033 29.3883V16.943H15.2149C15.5483 16.943 15.8184 16.6693 15.8184 16.3313L15.8202 11.3991C15.8202 11.2369 15.7565 11.0814 15.6435 10.9666C15.5305 10.8517 15.3766 10.7871 15.2165 10.7871H10.7033V7.90144C10.7033 6.51447 11.0293 5.81037 12.8116 5.81037L15.3969 5.80943C15.73 5.80943 16 5.53541 16 5.19772V0.617958C16 0.280578 15.7303 0.0068662 15.3975 0.006242Z"
+                  fill="#757575" />
+              </svg>
+
+            </a>
+
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="30" height="17" viewBox="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.7573 13.7523C27.8641 12.681 26.8129 11.7666 25.8183 10.7957C24.9211 9.92051 24.8645 9.41281 25.5858 8.40269C26.373 7.30024 27.2196 6.24007 28.0139 5.1426C28.7554 4.11694 29.5134 3.09408 29.9036 1.86602C30.151 1.08473 29.9322 0.739631 29.131 0.602835C28.9929 0.578895 28.8502 0.577652 28.7097 0.577652L23.9564 0.572056C23.3709 0.563351 23.0473 0.8186 22.8402 1.33749C22.5607 2.03888 22.2725 2.73965 21.9396 3.41648C21.1841 4.95108 20.3403 6.43439 19.1573 7.69042C18.8965 7.96743 18.608 8.31751 18.1721 8.17325C17.6268 7.97427 17.466 7.07577 17.475 6.77202L17.4704 1.28557C17.3647 0.501793 17.1909 0.152341 16.4127 0L11.475 0.000932781C10.8159 0.000932781 10.4854 0.255559 10.1334 0.667813C9.93042 0.905962 9.86918 1.06048 10.2864 1.13945C11.1059 1.2949 11.5676 1.82529 11.6901 2.647C11.8866 3.95993 11.8729 5.27815 11.7598 6.59636C11.7265 6.98126 11.6603 7.36522 11.5076 7.72462C11.2688 8.28953 10.8833 8.40456 10.3769 8.05697C9.9183 7.74234 9.59621 7.29838 9.28096 6.85255C8.09674 5.17928 7.15191 3.37482 6.3815 1.47864C6.1589 0.930835 5.77494 0.598793 5.19449 0.589777C3.76839 0.567081 2.34198 0.56335 0.915881 0.591021C0.0577973 0.607187 -0.198073 1.02379 0.151378 1.80167C1.70463 5.2567 3.43355 8.61566 5.69037 11.6755C6.8491 13.2459 8.17944 14.6322 9.89809 15.6146C11.8459 16.7283 13.9426 17.0634 16.1509 16.9602C17.185 16.9117 17.4956 16.6428 17.5434 15.6122C17.5758 14.907 17.6557 14.206 18.0036 13.5723C18.3449 12.9505 18.862 12.8321 19.458 13.2188C19.7561 13.4125 20.0073 13.6591 20.2445 13.919C20.8265 14.5557 21.3877 15.2117 21.9918 15.827C22.7495 16.598 23.647 17.0535 24.7756 16.9605L29.1444 16.9615C29.8482 16.9154 30.2132 16.0524 29.8091 15.2667C29.5252 14.7164 29.1527 14.2265 28.7573 13.7523Z"
+                  fill="#757575" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-links__title">меню</h3>
+          <div class="footer-links__inner">
+            <a href="#!" class="footer-links__parts">Главная</a>
+            <a href="#!" class="footer-links__parts">Новости</a>
+            <a href="#!" class="footer-links__parts">Акции</a>
+            <a href="#!" class="footer-links__parts">Поиск туров</a>
+            <a href="#!" class="footer-links__parts">Заявки</a>
+            <a href="#!" class="footer-links__parts">FAQ</a>
+            <a href="#!" class="footer-links__parts">Информация</a>
+            <a href="#!" class="footer-links__parts">Документы</a>
+            <a href="#!" class="footer-links__parts">Контакты</a>
+            <a href="#!" class="footer-links__parts">Партнеры</a>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <h3 class="footer-contacts__title">Связаться с нами</h3>
+          <div class="footer-contacts__inner">
+            <a class="footer-contacts__text" href="tel:902423237701">+90 242 323 77 01</a>
+            <a class="footer-contacts__text" href="mailto:pochta@mail.com">pochta@mail.com</a>
+            <a class="footer-contacts__text" href="#!">г. Краснодар, ул. Ленина, д. 65</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- footer end  -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

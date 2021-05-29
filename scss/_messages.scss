@@ -1,0 +1,42 @@
+.page-intro{
+    height: 385px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 160px;
+    margin-bottom: 140px;
+    &__title{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+.docs{
+    &-info{
+        background: $light-blue-bg-color;
+        padding: 20px 30px;
+        margin-bottom: 30px;
+        border-radius: 10px 10px 0 0 ;
+    }
+    &-info__number{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #C5A46D;
+    }
+}
+
+
+
+
+
+.header-top__cabinet--active:before{
+  fill: $yellow-font-color;
+}
