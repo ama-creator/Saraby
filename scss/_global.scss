@@ -204,3 +204,16 @@ select:focus-visible {
 .search-form__rate:hover svg:hover ~ .search-form__rate-logo {
   fill: transparent !important;
 }
+
+
+// animation css
+@keyframes search-status {
+  0% {
+   width:0
+  }
+  100% {
+   opacity:1;
+   width: 445px;
+   background-color: #A5D9FF;   
+  }
+ }

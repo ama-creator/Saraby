@@ -37,9 +37,9 @@
         left: 0;
         right: 0;
         bottom: -8px;
-        width: 445px;
         height: 8px;
-        background-color: #A5D9FF;   
+        animation: search-status 3s forwards;
+        animation-delay: 1s;
     }
     &__percent{
         font-family: $main-font;
@@ -67,3 +67,5 @@
 .main-search .search-form{
     margin-bottom: 30px;
 }
+
+

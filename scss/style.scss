@@ -46,52 +46,44 @@
         display: flex;
         align-items: center;
         &-profile{
+            display: flex;
+            align-items: center;
             font-family: $main-font;
             font-weight: bold;
             font-size: 14px;
             text-transform: uppercase;
             margin-right: 30px;
-            padding-left: 41px;
-            position: relative;
-            &::before{
-                content: '';
-                position: absolute;
-                background-image: url('../img/svg/email-logo.svg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                left: 0;
-                top: 50%;
-                width: 31px;
-                height: 21px;
-                transform: translateY(-50%);
-            }
             &:hover{
                 color: $yellow-font-color;
                 transition: all .4s;
+                
+            }
+            &:hover svg{
+                stroke: #C5A46D;
+            }
+            svg{
+                margin-right: 10px;
             }
         }
         &-exit{
+            display: flex;
+            align-items: center;
             font-family: $main-font;
             font-size: 14px;
             text-transform: uppercase;
-            padding-right: 43px;
-            position: relative;
-            &::before{
-                content: '';
-                position: absolute;
-                background-image: url('../img/svg/exit.svg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                right: 0;
-                top: 50%;
-                width: 27px;
-                height: 27px;
-                transform: translateY(-50%);
-            }
             &:hover{
                 color: $yellow-font-color;
                 transition: all .4s;
             }
+            &:hover svg{
+                stroke: #C5A46D;
+            }
+            svg{
+                margin-left: 10px;
+            }
+        }
+        &--active{
+            stroke: #C5A46D;
         }
     }
     &-bottom{
