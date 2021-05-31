@@ -1,0 +1,150 @@
+.request{
+    margin-bottom: 240px;
+    &-title{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #C5A46D;
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+    &-form{
+        border: 1px solid #E8E8E8;
+        padding: 40px 30px 30px;
+        box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.1);
+    }
+    &-form__title{
+        font-family: $main-font;
+        font-size: 14px;
+        line-height: 19px;
+        color: #757575;
+        margin-bottom: 10px;
+        padding-left: 8px;
+        position: relative;
+        &::before{
+            content: '*';
+            position: absolute;
+            color: #EB5757;
+            left: 0;
+            top: 2px
+        }
+    }
+    &-form__select{
+        width: 100%;
+        border-radius: 4px;
+        height: 39px;
+        margin-top: 10px;
+        background-position: 94% 53%;
+
+        display: block;
+        padding: 5px;
+        font-family: "Open Sans",sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        color: #757575;
+        background-color: #fff;
+        background-image: url("../img/svg/select-arrow.svg");
+        background-repeat: no-repeat;
+        background-size: 13px 8px;
+        border: 1px solid #E8E8E8;
+        appearance: none;
+        cursor: pointer;
+        margin-right: auto;
+        margin-bottom: 17px;
+        max-width: 255px;
+    }
+
+    &-form__checkbox{
+        display: flex;
+        justify-content: space-between;
+        font-family: $main-font;
+        font-size: 14px;
+        color: $black-color;
+        cursor:pointer;
+        padding-left: 24px;
+        margin-bottom: 7px;
+        position: relative;
+        &-item{
+            position:absolute;
+            overflow:hidden;
+            height:1px;
+            width:1px;
+            clip:rect(0 0 0 0);
+            padding-left:24px;
+        }
+        &-item:checked + .request-form__checkbox-icon::before{
+            content:'';
+            width: 8px;
+            height: 7px;
+            background-image:url("../img/svg/checkbox-arrow.svg");
+            background-repeat:no-repeat;
+            position:absolute;
+            background-size:contain;
+            top:50%;
+            left:50%;
+            -webkit-transform:translate(-50%, -50%);
+            -ms-transform:translate(-50%, -50%);
+            transform:translate(-50%, -50%);
+            z-index:2;
+        }
+        &-item:checked + .request-form__checkbox-icon::after{
+            content:'';
+            background-color:#6EBBD3;
+            position:absolute;
+            bottom:0;
+            right:0;
+            left:0;
+            top:0;
+            z-index:1;
+            border-radius: 1px;
+            width: 100%;
+            height: 100%;
+        }
+        &-icon{
+            border: 1px solid #E8E8E8;
+            border-radius: 2px;
+            position:absolute;
+            width: 15px;
+            height:15px;
+            background-color:transparent;
+            margin-left:-24px;
+            cursor:pointer;
+        }
+    }
+    &-form__subtitle{
+        font-family: $main-font;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        margin: 61px 0 40px;
+    }
+    &-form__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-form__box{
+        width: 98%;
+        max-width: 540px;
+        &-title{
+            display: block;
+            font-family: $main-font;
+            font-size: 14px;
+            line-height: 19px;
+            color: #757575;            
+            margin-bottom: 10px;
+        }
+        &-input{
+            width: 99%;
+        }
+        &--passport{
+            width: 48.6% !important;
+            &:first-child{
+                margin-right: 10px;
+            }
+        }
+    }
+}

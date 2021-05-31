@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <title>Сараби</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <!-- header start -->
+  <header class="header">
+    <div class="header-top">
+      <div class="header-wrapper">
+        <div class="header-top__logo">
+          <a class="header-top__logo-link" href="#!"><img class="header-top__logo-pic" src="img/svg/header-logo.svg"
+              alt=""></a>
+          <a class="header-top__logo-contact" href="tel:902423237701">+90 242 323 77 01</a>
+        </div>
+        <div class="header-top__cabinet">
+          <a class="header-top__cabinet-profile" href="messages.html">
+            <svg class="header-top__cabinet-logo" width="31" height="21" viewBox="0 0 31 21"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M31 0.441153C31 0.436605 31 0.432563 30.9987 0.428015C30.9974 0.423467 30.9969 0.412097 30.9963 0.404264C30.9934 0.369184 30.9861 0.334572 30.9746 0.301177C30.9731 0.296629 30.9746 0.291828 30.9717 0.28728C30.9689 0.282732 30.9691 0.28349 30.9683 0.281469C30.9534 0.244766 30.9335 0.210176 30.909 0.178634C30.9035 0.17156 30.8977 0.165243 30.8917 0.158421C30.8679 0.130563 30.8407 0.105616 30.8106 0.0841375C30.8075 0.0818635 30.8048 0.0790842 30.8017 0.0770629C30.7681 0.0556761 30.7316 0.0386844 30.6934 0.0265302C30.6845 0.0234982 30.6756 0.0209712 30.6672 0.0184445C30.627 0.00677552 30.5852 0.000567917 30.5432 0H0.456775C0.414755 0.000567917 0.373021 0.00677552 0.332771 0.0184445C0.323614 0.0209712 0.314981 0.0234982 0.306609 0.0265302C0.268356 0.0386844 0.231937 0.0556761 0.198302 0.0770629C0.195163 0.0790842 0.192547 0.0818635 0.189407 0.0841375C0.159343 0.105616 0.132108 0.130563 0.108307 0.158421C0.102552 0.165243 0.0965349 0.17156 0.0910411 0.178634C0.0665448 0.210176 0.0465691 0.244766 0.031655 0.281469C0.031655 0.28349 0.0290389 0.285259 0.0282541 0.28728C0.0274692 0.289302 0.026946 0.296629 0.0253763 0.301177C0.0138776 0.334572 0.00658719 0.369184 0.00366256 0.404264C0.00366256 0.412349 0.00130797 0.420182 0.00130797 0.428015C0.00130797 0.435847 0 0.436605 0 0.441153V20.5571C0 20.5629 0.00156967 20.5684 0.00183128 20.5743C0.00259455 20.5902 0.00425389 20.606 0.00680192 20.6218C0.00889482 20.6346 0.0107261 20.647 0.0138654 20.6602C0.0179034 20.6755 0.0227939 20.6906 0.0285157 20.7054C0.0329631 20.7173 0.0371488 20.7291 0.0426427 20.7405C0.0498974 20.7554 0.0580204 20.7699 0.0669727 20.784C0.0732514 20.7941 0.0795301 20.8044 0.0865936 20.814C0.0967365 20.8274 0.107654 20.8402 0.119295 20.8524C0.127928 20.8615 0.136562 20.8706 0.145456 20.8792C0.15095 20.884 0.155136 20.8898 0.160891 20.8946C0.166647 20.8994 0.170309 20.8989 0.174495 20.9022C0.210211 20.93 0.25008 20.9524 0.292744 20.9687C0.3019 20.9722 0.311318 20.9742 0.320737 20.977C0.362007 20.99 0.405002 20.9973 0.448403 20.9985C0.451543 20.9985 0.45442 21 0.45756 21H0.463577H30.5364H30.5424C30.5456 21 30.5485 20.9985 30.5513 20.9985C30.5948 20.9973 30.6379 20.9901 30.6793 20.977C30.6884 20.9742 30.6976 20.9722 30.7054 20.9687C30.7482 20.9524 30.7881 20.93 30.8239 20.9022C30.8281 20.8989 30.8334 20.8979 30.8375 20.8946C30.8417 20.8914 30.8475 20.884 30.853 20.8792C30.8624 20.8706 30.871 20.8618 30.8791 20.8524C30.8908 20.8402 30.9017 20.8274 30.9118 20.814C30.9189 20.8044 30.9252 20.7943 30.9315 20.784C30.9404 20.7699 30.9485 20.7554 30.9558 20.7405C30.9613 20.7291 30.9655 20.7173 30.9699 20.7054C30.9756 20.6906 30.9805 20.6755 30.9846 20.6602C30.9877 20.6475 30.9895 20.6349 30.9916 20.6218C30.9942 20.606 30.9958 20.5902 30.9966 20.5743C30.9966 20.5684 30.9984 20.5629 30.9984 20.5571L31 0.441153ZM10.7381 9.56843L15.2007 13.2768C15.2838 13.3458 15.3898 13.3837 15.4993 13.3837C15.6089 13.3837 15.7149 13.3458 15.798 13.2768L20.2608 9.56843L29.5512 20.1149H1.44802L10.7381 9.56843ZM0.914596 19.3557V1.40507L10.0449 8.99159L0.914596 19.3557ZM20.9541 8.99159L30.0844 1.40507V19.3557L20.9541 8.99159ZM29.3076 0.883317L20.0191 8.60249C20.0175 8.60375 20.0154 8.60451 20.0139 8.60602C20.0123 8.60754 20.0107 8.60956 20.0089 8.61108L15.4995 12.3584L10.9901 8.61108C10.9882 8.60956 10.9869 8.60754 10.9851 8.60602L10.9799 8.60249L1.6908 0.883317H29.3076Z"
+                fill="white" />
+            </svg>
+            <span>Tatiana Poddubnaya</span>
+          </a>
+          <a class="header-top__cabinet-exit" href="#!">
+            <span>выйти</span>
+            <svg class="header-top__cabinet-logo" width="27" height="27" viewBox="0 0 27 27" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.4375 20.25C17.1266 20.25 16.875 20.5016 16.875 20.8125V24.75C16.875 25.3702 16.3702 25.875 15.75 25.875H2.25002C1.62986 25.875 1.12504 25.3702 1.12504 24.75V2.25002C1.12504 1.62986 1.62986 1.12504 2.25002 1.12504H15.75C16.3702 1.12504 16.875 1.62986 16.875 2.25002V6.18754C16.875 6.49846 17.1266 6.75005 17.4375 6.75005C17.7484 6.75005 18 6.49846 18 6.18754V2.25002C18 1.00907 16.9909 0 15.75 0H2.25002C1.00907 0 0 1.00907 0 2.25002V24.75C0 25.9909 1.00907 27 2.25002 27H15.75C16.9909 27 18 25.9909 18 24.75V20.8125C18 20.5016 17.7484 20.25 17.4375 20.25Z"
+                fill="white" />
+              <path
+                d="M26.8176 13.0853L20.0676 6.89787C19.8375 6.68804 19.4832 6.70396 19.2728 6.93246C19.0629 7.16154 19.0783 7.5175 19.3074 7.72733L24.9916 12.9376H7.31252C7.0016 12.9376 6.75 13.1892 6.75 13.5001C6.75 13.811 7.0016 14.0626 7.31252 14.0626H24.9917L19.3074 19.2729C19.0783 19.4827 19.063 19.8387 19.2728 20.0677C19.3838 20.1886 19.5354 20.2501 19.6876 20.2501C19.8233 20.2501 19.9595 20.2012 20.0677 20.1023L26.8177 13.9149C26.9341 13.8083 27 13.6578 27 13.5001C27 13.3424 26.9341 13.1919 26.8176 13.0853Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <ul class="header-bottom__list">
+          <li class="header-bottom__item"><a class="header-bottom__link" href="index.html">Главная</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="news.html">Новости</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="promotions.html">Акции</a>
+          </li>
+          <li class="header-bottom__item"><a class="header-bottom__link header-bottom__link--active" href="#!">Поиск
+              туров</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Заявки</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">FAQ</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Информация</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Документы</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Контакты</a></li>
+          <li class="header-bottom__item"><a class="header-bottom__link" href="#!">Партнеры</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <main class="cart-tour">
+
+    <!-- section message-intro start  -->
+    <section class="page-intro" style="background-image: url('img/cart-tour/intro-bg.jpg');">
+      <h1 class="page-intro__title">КАРТОЧКА ТУРА</h1>
+      <h3 class="page-intro__text">ПОИСК ТУРОВ / КАРТОЧКА ТУРА</h3>
+    </section>
+    <!-- section message-intro end  -->
+
+    <section class="tour">
+      <div class="container">
+        <div class="tour-wrapper">
+          <div class="tour-cart">
+            <div class="tour-cart__inner">
+              <span class="tour-cart__info tour-cart__info--from">Краснодар</span>
+              <span class="tour-cart__logo">
+                <svg class="tour-cart__logo-to" width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#C5A46D" />
+                </svg>
+              </span>
+              <span class="tour-cart__info tour-cart__info--to">Турция, Стамбул</span>
+              <span class="tour-cart__info tour-cart__info--people"><span class="tour-cart__info-age">взрослых</span>
+                <span class="tour-cart__info-count">2</span> <span class="tour-cart__info-age">детей</span> <span
+                  class="tour-cart__info-count ">0</span></span>
+              <span class="tour-cart__info tour-cart__info--"></span>
+            </div>
+
+            <div class="tour-cart__inner">
+              <span class="tour-cart__info tour-cart__info--clock">7 ночей</span>
+              <span class="tour-cart__date">
+                c
+                <span class="tour-cart__date-info">18 декабря 2019</span>
+                по
+                <span class="tour-cart__date-info tour-cart__date-last">25 декабря 2019</span>
+              </span>
+            </div>
+            <div class="tour-cart__wrapper">
+              <div class="tour-cart__name">
+                <h3 class="tour-cart__name-title">Grand hotel</h3>
+                <div class="tour-cart__rating">
+                  <svg class="tour-cart__rating-logo" width="14" height="15" viewBox="0 0 29 27"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                      <path
+                        d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                        fill="white" />
+                    </g>
+                    <path
+                      d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                      stroke="" />
+                    <defs>
+                      <filter id="filter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                      </filter>
+                    </defs>
+                  </svg>
+
+                  <svg class="tour-cart__rating-logo" width="14" height="15" viewBox="0 0 29 27"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                      <path
+                        d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                        fill="white" />
+                    </g>
+                    <path
+                      d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                      stroke="" />
+                    <defs>
+                      <filter id="filter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                      </filter>
+                    </defs>
+                  </svg>
+
+
+                  <svg class="tour-cart__rating-logo" width="14" height="15" viewBox="0 0 29 27"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                      <path
+                        d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                        fill="white" />
+                    </g>
+                    <path
+                      d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                      stroke="" />
+                    <defs>
+                      <filter id="filter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                      </filter>
+                    </defs>
+                  </svg>
+
+
+                  <svg class="tour-cart__rating-logo" width="14" height="15" viewBox="0 0 29 27"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                      <path
+                        d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                        fill="white" />
+                    </g>
+                    <path
+                      d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                      stroke="" />
+                    <defs>
+                      <filter id="filter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                      </filter>
+                    </defs>
+                  </svg>
+
+
+                  <svg class="tour-cart__rating-logo" width="14" height="15" viewBox="0 0 29 27"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i)">
+                      <path
+                        d="M14.5 0L18.4373 9.08079L28.2903 10.0193L20.8707 16.57L23.0229 26.2307L14.5 21.1985L5.97711 26.2307L8.12934 16.57L0.709681 10.0193L10.5627 9.08079L14.5 0Z"
+                        fill="white" />
+                    </g>
+                    <path
+                      d="M14.5 1.25691L17.9785 9.27969L18.096 9.55055L18.3899 9.57854L27.0949 10.4077L20.5397 16.1951L20.3184 16.3905L20.3826 16.6787L22.2841 25.2139L14.7542 20.768L14.5 20.6179L14.2458 20.768L6.71591 25.2139L8.61738 16.6787L8.68157 16.3905L8.46026 16.1951L1.90507 10.4077L10.6101 9.57854L10.904 9.55055L11.0215 9.27969L14.5 1.25691Z"
+                      stroke="" />
+                    <defs>
+                      <filter id="filter0_i" x="0.708984" y="0" width="27.5806" height="30.2307"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+                      </filter>
+                    </defs>
+                  </svg>
+
+                </div>
+                <p class="tour-cart__name-discount">Трансфер бесплатно</p>
+              </div>
+              <div class="tour-cart__params">
+                <p class="tour-cart__params-title tour-cart__params-item">
+                  Standart
+                  <span>BDL</span>
+                  <span class="tour-cart__params-text">двухместный номер</span>
+                </p>
+                <p class="tour-cart__params-title">
+                  BB
+                  <span class="tour-cart__params-text">Завтрак по системе “шведский стол”</span>
+                </p>
+              </div>
+            </div>
+            <p class="tour-cart__hotel">
+              Отель: название + категория (кликабельно, переход на карточку отеля)
+            </p>
+            <p class="tour-cart__detail">
+              Бюджетный отель, расположенный в 80м. от моря, рекомендован для непритязательных туристов. Единственный плюс отеля - анимация. Между отелем и морем проходит шоссе. Пляж городской (песок/галька).
+            </p>
+            <div class="tour-cart__gallery">
+              <img class=" tour-cart__gallery--one" src="img/cart-tour/gallery-1.jpg" alt="">
+              <div class="tour-cart__gallery-box">
+              <div class="tour-cart__gallery-inner">
+              <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-2.jpg" alt="">
+              <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-3.jpg" alt="">
+              <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-4.jpg" alt="">
+              </div>
+              <div class="tour-cart__gallery-inner">
+                <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-5.jpg" alt="">
+                <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-6.jpg" alt="">
+                <img class="tour-cart__gallery-pic" src="img/cart-tour/gallery-7.jpg" alt="">
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tour-info">
+            <h4 class="tour-info__title">Anex</h4>
+            <div class="tour-info__box">
+              <p class="tour-info__box-title">цена без доплат</p>
+              <p class="tour-info__box-subtitle">2 190 USD</p>
+            </div>
+            <p class="tour-info__about">Включено в стоимость:</p>
+            <p class="tour-info__subtext">Авиаперелет:</p>
+            <p class="tour-info__text">
+               Краснодар/Стамбул/ЗС381, KRR-SAW? <br> 03:50-06:00/Y Экономический класс/ <br> Страховка: Турция/Медицинская <br> страховка, 8 дней/8 <br> дней/В/35000/0/None/ Стоаховка: <br> Турция/Невозможность выезда-возврат <br> до 1000 на чел., 8 <br> дней/П/1000/0/EU/None/
+            </p>
+            <p class="tour-info__subtext">Проживание</p>
+            <p class="tour-info__subtext">Авиаперелет</p>
+            <p class="tour-info__subtext">Питание</p>
+            
+            <div class="tour-info__details">
+              <p class="tour-info__details-item">доплаты:</p>
+              <p class="tour-info__details-value">0 RUB</p>
+            </div>
+
+            <div class="tour-info__details">
+              <p class="tour-info__details-item">виз. сбор:</p>
+              <p class="tour-info__details-value">нет сбора</p>
+            </div>
+
+            <div class="tour-info__details">
+              <p class="tour-info__details-item">комиссия:</p>
+              <p class="tour-info__details-value">6 409 RUB</p>
+            </div>
+
+            <div class="tour-info__details">
+              <div class="tour-info__inner">
+                <svg class="tour-info__icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.23236 9.90015H3.66605C3.46358 9.90015 3.29944 10.0643 3.29944 10.2668V13.9329C3.29944 14.1354 3.46358 14.2995 3.66605 14.2995H6.23236C6.43483 14.2995 6.59897 14.1354 6.59897 13.9329V10.2668C6.59897 10.0643 6.43483 9.90015 6.23236 9.90015ZM5.86575 13.5663H4.03266V10.6334H5.86575V13.5663Z" fill="#757575"/>
+                  <path d="M12.4648 9.90015H9.89847C9.696 9.90015 9.53186 10.0643 9.53186 10.2668V13.9329C9.53186 14.1354 9.696 14.2995 9.89847 14.2995H12.4648C12.6672 14.2995 12.8314 14.1354 12.8314 13.9329V10.2668C12.8314 10.0643 12.6672 9.90015 12.4648 9.90015ZM12.0982 13.5663H10.2651V10.6334H12.0982V13.5663Z" fill="#757575"/>
+                  <path d="M12.4648 15.7659H9.89847C9.696 15.7659 9.53186 15.93 9.53186 16.1325V19.7986C9.53186 20.0011 9.696 20.1652 9.89847 20.1652H12.4648C12.6672 20.1652 12.8314 20.0011 12.8314 19.7986V16.1325C12.8314 15.9301 12.6672 15.7659 12.4648 15.7659ZM12.0982 19.432H10.2651V16.4991H12.0982V19.432Z" fill="#757575"/>
+                  <path d="M18.3306 9.90015H15.7643C15.5618 9.90015 15.3976 10.0643 15.3976 10.2668V13.9329C15.3976 14.1354 15.5618 14.2995 15.7643 14.2995H18.3306C18.533 14.2995 18.6972 14.1354 18.6972 13.9329V10.2668C18.6972 10.0643 18.533 9.90015 18.3306 9.90015ZM17.964 13.5663H16.1309V10.6334H17.964V13.5663Z" fill="#757575"/>
+                  <path d="M6.23236 15.7659H3.66605C3.46358 15.7659 3.29944 15.93 3.29944 16.1325V19.7986C3.29944 20.0011 3.46358 20.1652 3.66605 20.1652H6.23236C6.43483 20.1652 6.59897 20.0011 6.59897 19.7986V16.1325C6.59897 15.9301 6.43483 15.7659 6.23236 15.7659ZM5.86575 19.432H4.03266V16.4991H5.86575V19.432Z" fill="#757575"/>
+                  <path d="M18.3306 15.7659H15.7643C15.5618 15.7659 15.3976 15.93 15.3976 16.1325V19.7986C15.3976 20.0011 15.5618 20.1652 15.7643 20.1652H18.3306C18.533 20.1652 18.6972 20.0011 18.6972 19.7986V16.1325C18.6972 15.9301 18.533 15.7659 18.3306 15.7659ZM17.964 19.432H16.1309V16.4991H17.964V19.432Z" fill="#757575"/>
+                  <path d="M20.5304 21.2649V8.80005H20.897C21.0995 8.80005 21.2636 8.63591 21.2636 8.43344V6.6004C21.2636 6.39793 21.0995 6.23379 20.897 6.23379H20.5304V4.76735C20.5304 4.56488 20.3662 4.40074 20.1638 4.40074H19.4306V0.367952C19.4306 0.165483 19.2664 0.00134277 19.0639 0.00134277H2.93292C2.73045 0.00134277 2.56631 0.165483 2.56631 0.367952V4.4007H1.83309C1.63062 4.4007 1.46648 4.56484 1.46648 4.76731V6.23374H1.09987C0.897402 6.23374 0.733262 6.39788 0.733262 6.60035V8.4334C0.733262 8.63587 0.897402 8.80001 1.09987 8.80001H1.46648V21.2649H0V21.9981H1.83309H20.1638H22V21.2649H20.5304V21.2649ZM3.29953 0.734561H18.6973V4.4007H3.29953V0.734561ZM2.1997 5.13392H2.93292H19.0639H19.7971V6.23374H2.1997V5.13392ZM19.7971 21.2649H2.1997V8.80005H19.7972V21.2649H19.7971ZM1.83309 8.06683H1.46648V6.96701H1.83309H20.1638H20.5304V8.06683H20.1638H1.83309Z" fill="#757575"/>
+                  </svg>
+                  
+                <p class="tour-info__details-method tour-info__details-method--yellow">по <br> запросу</p>
+              </div>
+
+              <div class="tour-info__inner">
+                <svg class="tour-info__icon" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="38" height="38" rx="3" fill="#F5F5F5"></rect>
+                  <g clip-path="url(#clip0)">
+                    <path d="M29.8753 12.0277L29.8752 12.0276C28.3779 11.1549 26.6282 11.5964 25.3297 12.2019L21.3477 14.0588L21.1281 14.1612L20.9117 14.0523L14.1793 10.6662L11.3566 10.7875L16.2206 15.7185L16.7146 16.2193L16.0791 16.5212L12.475 18.2333L12.2821 18.3249L12.0826 18.249L8.53035 16.8971L6.78971 17.7087L8.65834 20.0292L8.91601 20.3491L8.65211 20.664C8.56356 20.7696 8.49765 20.8735 8.46203 20.9686L8.60669 20.7706C8.67925 20.6713 8.7917 20.5464 8.96889 20.3905L8.9689 20.3904L8.97935 20.3812L7.23606 18.2165L6.8358 17.7195L7.41416 17.4497L8.33976 17.0181L8.53136 16.9287L8.72894 17.0039L12.2832 18.3567L16.7642 16.2281L12.2149 11.6161L11.4236 10.8138L12.5494 10.7654L14.0429 10.7013L14.1729 10.6957L14.289 10.7541L21.1275 14.1935L25.342 12.2284C27.04 11.4366 28.5916 11.3135 29.8604 12.0528L29.8604 12.0528L29.9164 12.0854L29.919 12.0881C30.0573 12.1739 30.1701 12.2638 30.2562 12.3555C30.3049 12.4072 30.3524 12.4674 30.3902 12.5354C30.4206 12.5902 30.4762 12.7053 30.4702 12.8532C30.4702 12.8542 30.4702 12.8552 30.4701 12.8562L29.9706 12.8332C29.9705 12.8369 29.9396 13.206 28.6916 13.7879L29.8753 12.0277ZM29.8753 12.0277C30.1885 12.2102 30.3398 12.386 30.4145 12.5183C30.4884 12.649 30.5036 12.7655 30.4994 12.8574C30.4916 13.0298 30.4103 13.2342 30.1619 13.4783C29.9082 13.7277 29.5044 13.9929 28.9154 14.2676L29.8753 12.0277Z" fill="#222222" stroke="#757575"></path>
+                    <path d="M8 26.7369H30M30 26.7369L26.7647 23.4474M30 26.7369L26.7647 30.0263" stroke="#757575"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect x="6" y="7" width="25" height="25" rx="3" fill="white"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="tour-info__details-method tour-info__details-method--green">есть</p>
+              </div>
+
+              <div class="tour-info__inner tour-info__inner--child">
+                <svg class="tour-info__icon" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="38" height="38" rx="3" fill="#F5F5F5"></rect>
+                  <g clip-path="url(#clip0)">
+                    <path d="M7.12473 12.0277L7.12479 12.0276C8.62214 11.1549 10.3718 11.5964 11.6703 12.2019L15.6523 14.0588L15.8719 14.1612L16.0883 14.0523L22.8207 10.6662L25.6434 10.7875L20.7794 15.7185L20.2854 16.2193L20.9209 16.5212L24.525 18.2333L24.7179 18.3249L24.9174 18.249L28.4696 16.8971L30.2103 17.7087L28.3417 20.0292L28.084 20.3491L28.3479 20.6639C28.4364 20.7696 28.5023 20.8735 28.538 20.9686L28.3933 20.7706C28.3208 20.6713 28.2083 20.5464 28.0311 20.3904L28.0311 20.3904L28.0206 20.3812L29.7639 18.2165L30.1642 17.7195L29.5858 17.4497L28.6602 17.0181L28.4686 16.9287L28.2711 17.0039L24.7168 18.3567L20.2358 16.2281L24.7851 11.6161L25.5764 10.8138L24.4506 10.7654L22.9571 10.7013L22.8271 10.6957L22.711 10.7541L15.8725 14.1935L11.658 12.2284C9.96001 11.4366 8.4084 11.3135 7.13962 12.0528L7.13959 12.0528L7.08413 12.0851L7.0815 12.0877C6.94298 12.1736 6.83003 12.2637 6.74376 12.3555C6.69513 12.4072 6.64762 12.4674 6.60982 12.5354C6.57936 12.5902 6.52378 12.7053 6.52976 12.8532C6.5298 12.8542 6.52984 12.8552 6.52989 12.8562L7.02936 12.8332C7.02946 12.8369 7.06039 13.206 8.30835 13.7879L7.12473 12.0277ZM7.12473 12.0277C6.81147 12.2102 6.66023 12.386 6.58548 12.5183C6.51155 12.649 6.49638 12.7655 6.50057 12.8574C6.50844 13.0298 6.58975 13.2342 6.83806 13.4783C7.09175 13.7277 7.49556 13.9929 8.0846 14.2676C8.0846 14.2676 8.08461 14.2676 8.08461 14.2676L22.3188 20.9051C23.179 21.3062 24.6028 21.6462 25.933 21.7513L25.9331 21.7513C26.2188 21.7739 26.4822 21.7849 26.7232 21.7849H26.7233C27.3175 21.7849 27.7548 21.7177 28.0568 21.6072C28.2262 21.5452 28.3405 21.4746 28.418 21.403M7.12473 12.0277L28.418 21.403M28.418 21.403L28.2261 21.506C28.0298 21.6115 27.7313 21.6851 27.3572 21.7236C26.969 21.7636 26.4579 21.7697 25.8092 21.7115C24.553 21.5987 23.1919 21.28 22.3312 20.8786L8.09707 14.241L28.418 21.403Z" fill="#222222" stroke="#757575"></path>
+                    <path d="M30 26.7369H8M8 26.7369L11.2353 23.4474M8 26.7369L11.2353 30.0263" stroke="#757575"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="25" height="25" fill="white" transform="matrix(-1 0 0 1 31 7)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <p class="tour-info__details-method tour-info__details-method--red">есть</p>
+              </div>
+            </div>
+            <a href="request-tour.html" class="tour-info__order">Забронировать</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+
+
+  <!-- footer start  -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <a class="footer-logo__link" href="#!">
+            <img class="footer-logo__link-pic" src="img/svg/header-logo.svg" alt=""> <br>
+            <span class="footer-logo__link-text">Sarabi Special Service</span>
+          </a>
+          <div class="footer-logo__social">
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="30" height="30" viewBox="0 0 30 30"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M27 0H3C1.35 0 0 1.35 0 3V27C0 28.65 1.35 30 3 30H27C28.65 30 30 28.65 30 27V3C30 1.35 28.65 0 27 0ZM15 9C18.3 9 21 11.7 21 15C21 18.3 18.3 21 15 21C11.7 21 9 18.3 9 15C9 11.7 11.7 9 15 9ZM3.75 27C3.3 27 3 26.7 3 26.25V13.5H6.15C6 13.95 6 14.55 6 15C6 19.95 10.05 24 15 24C19.95 24 24 19.95 24 15C24 14.55 24 13.95 23.85 13.5H27V26.25C27 26.7 26.7 27 26.25 27H3.75ZM27 6.75C27 7.2 26.7 7.5 26.25 7.5H23.25C22.8 7.5 22.5 7.2 22.5 6.75V3.75C22.5 3.3 22.8 3 23.25 3H26.25C26.7 3 27 3.3 27 3.75V6.75Z"
+                  fill="#757575" />
+              </svg>
+            </a>
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="16" height="30" viewBox="0 0 16 30" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.3975 0.006242L11.5598 0C7.24832 0 4.46205 2.89785 4.46205 7.38304V10.7871H0.603437C0.270007 10.7871 0 11.0611 0 11.3991V16.3313C0 16.6693 0.270315 16.943 0.603437 16.943H4.46205V29.3883C4.46205 29.7263 4.73205 30 5.06548 30H10.0999C10.4333 30 10.7033 29.726 10.7033 29.3883V16.943H15.2149C15.5483 16.943 15.8184 16.6693 15.8184 16.3313L15.8202 11.3991C15.8202 11.2369 15.7565 11.0814 15.6435 10.9666C15.5305 10.8517 15.3766 10.7871 15.2165 10.7871H10.7033V7.90144C10.7033 6.51447 11.0293 5.81037 12.8116 5.81037L15.3969 5.80943C15.73 5.80943 16 5.53541 16 5.19772V0.617958C16 0.280578 15.7303 0.0068662 15.3975 0.006242Z"
+                  fill="#757575" />
+              </svg>
+
+            </a>
+
+            <a href="#!" class="footer-logo__social-link">
+              <svg class="footer-logo__social-pic" width="30" height="17" viewBox="0 0 30 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.7573 13.7523C27.8641 12.681 26.8129 11.7666 25.8183 10.7957C24.9211 9.92051 24.8645 9.41281 25.5858 8.40269C26.373 7.30024 27.2196 6.24007 28.0139 5.1426C28.7554 4.11694 29.5134 3.09408 29.9036 1.86602C30.151 1.08473 29.9322 0.739631 29.131 0.602835C28.9929 0.578895 28.8502 0.577652 28.7097 0.577652L23.9564 0.572056C23.3709 0.563351 23.0473 0.8186 22.8402 1.33749C22.5607 2.03888 22.2725 2.73965 21.9396 3.41648C21.1841 4.95108 20.3403 6.43439 19.1573 7.69042C18.8965 7.96743 18.608 8.31751 18.1721 8.17325C17.6268 7.97427 17.466 7.07577 17.475 6.77202L17.4704 1.28557C17.3647 0.501793 17.1909 0.152341 16.4127 0L11.475 0.000932781C10.8159 0.000932781 10.4854 0.255559 10.1334 0.667813C9.93042 0.905962 9.86918 1.06048 10.2864 1.13945C11.1059 1.2949 11.5676 1.82529 11.6901 2.647C11.8866 3.95993 11.8729 5.27815 11.7598 6.59636C11.7265 6.98126 11.6603 7.36522 11.5076 7.72462C11.2688 8.28953 10.8833 8.40456 10.3769 8.05697C9.9183 7.74234 9.59621 7.29838 9.28096 6.85255C8.09674 5.17928 7.15191 3.37482 6.3815 1.47864C6.1589 0.930835 5.77494 0.598793 5.19449 0.589777C3.76839 0.567081 2.34198 0.56335 0.915881 0.591021C0.0577973 0.607187 -0.198073 1.02379 0.151378 1.80167C1.70463 5.2567 3.43355 8.61566 5.69037 11.6755C6.8491 13.2459 8.17944 14.6322 9.89809 15.6146C11.8459 16.7283 13.9426 17.0634 16.1509 16.9602C17.185 16.9117 17.4956 16.6428 17.5434 15.6122C17.5758 14.907 17.6557 14.206 18.0036 13.5723C18.3449 12.9505 18.862 12.8321 19.458 13.2188C19.7561 13.4125 20.0073 13.6591 20.2445 13.919C20.8265 14.5557 21.3877 15.2117 21.9918 15.827C22.7495 16.598 23.647 17.0535 24.7756 16.9605L29.1444 16.9615C29.8482 16.9154 30.2132 16.0524 29.8091 15.2667C29.5252 14.7164 29.1527 14.2265 28.7573 13.7523Z"
+                  fill="#757575" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3 class="footer-links__title">меню</h3>
+          <div class="footer-links__inner">
+            <a href="#!" class="footer-links__parts">Главная</a>
+            <a href="#!" class="footer-links__parts">Новости</a>
+            <a href="#!" class="footer-links__parts">Акции</a>
+            <a href="#!" class="footer-links__parts">Поиск туров</a>
+            <a href="#!" class="footer-links__parts">Заявки</a>
+            <a href="#!" class="footer-links__parts">FAQ</a>
+            <a href="#!" class="footer-links__parts">Информация</a>
+            <a href="#!" class="footer-links__parts">Документы</a>
+            <a href="#!" class="footer-links__parts">Контакты</a>
+            <a href="#!" class="footer-links__parts">Партнеры</a>
+          </div>
+        </div>
+        <div class="footer-contacts">
+          <h3 class="footer-contacts__title">Связаться с нами</h3>
+          <div class="footer-contacts__inner">
+            <a class="footer-contacts__text" href="tel:902423237701">+90 242 323 77 01</a>
+            <a class="footer-contacts__text" href="mailto:pochta@mail.com">pochta@mail.com</a>
+            <a class="footer-contacts__text" href="#!">г. Краснодар, ул. Ленина, д. 65</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- footer end  -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
