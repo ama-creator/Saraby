@@ -1,0 +1,536 @@
+.find{
+    margin-bottom: 118px;
+    &-request{
+        box-shadow: 0px 4px 10px rgba(34, 34, 34, 0.1);
+        background: #F4F6F9;
+        border-radius: 10px;
+        padding: 30px;
+        &__box-inner{
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &__box-title{
+            font-family: $main-font;
+            font-size: 13px;
+            line-height: 18px;
+            color: #000000;         
+            margin-bottom: 5px;
+            display: block; 
+        }
+        &__box-input{
+            background: #FFFFFF;
+            border-radius: 4px;
+            width: 206px;
+            height: 39px;
+            border: none;
+            outline: none;
+        }
+    }
+    &-request__box{
+        display: flex;
+        margin-bottom: 20px;
+        &:first-child .find-request__select{
+            margin-right: 20px;
+        }
+    }
+    &-request__select{
+        width: 206px !important;
+        height: 39px;
+        border-radius: 4px;
+        background-position: 94% 53%;
+        display: block;
+        padding: 5px;
+        font-family: "Open Sans",sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        color: #757575;
+        background-color: #fff;
+        background-image: url("../img/svg/select-arrow.svg");
+        background-repeat: no-repeat;
+        background-size: 13px 8px;
+        border: 1px solid #E8E8E8;
+        appearance: none;
+        cursor: pointer;
+    }
+    &-request__btn{
+        display: block;
+        width: 100%;
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 160%;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 8px;
+        margin-top: 40px;
+        border: 2px solid transparent;
+        background-color: #C5A46D;
+        cursor: pointer;
+        &:hover{
+            border-color: #C5A46D;
+            color: #C5A46D;
+            background-color: transparent;
+            transition: all .4s;
+        }
+    }
+}
+
+.detail{
+    margin-bottom: 52px;
+    
+    .docs-cart__details-text{
+        margin-right: 10px !important;
+    }
+    .tour-info {
+        width: auto !important;
+        padding: 47px 36px 41px 30px !important;
+    }
+    .tour-info__title{
+        margin-bottom: 12px;
+    }
+    &-wrapper{
+        display: flex;
+        background: #FFFFFF;
+        border: 1px solid rgba(196, 196, 196, 0.16);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    &-request{
+        width: 75.7%;
+        padding: 46px 20px 32px;
+    }
+    &-request__info{
+        margin-bottom: 11px;
+        padding-left: 10px;
+        &-title{
+            font-family: $main-font;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #27AE60;
+            margin-right: 43px;
+        }
+        &-text{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #666666;
+        }
+        &-date{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #000000;
+            margin-right: 34px;
+            margin-left: 5px;
+        }
+        &-status{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #27AE60;
+            margin-left: 5px;
+            margin-right: 28px;
+        }
+        &-payment{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #E70707;       
+            max-height: 100px;
+            overflow: hidden;
+            width: auto;     
+        }
+    }
+    &-inner{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+    &-tour{
+        max-width: 500px;
+        margin-top: 35px;
+    }
+    &-tour__name{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #666666;   
+        white-space: nowrap;
+        margin-bottom: 7px; 
+        &-info{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #000000;
+            margin-left: 10px;
+        }    
+    }
+    &-payment{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-payment__info{
+        margin-left: 15px;
+        &-title{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #666666;
+            margin-bottom: 18px;
+        }
+        &-subtitle{
+            font-family: $main-font;
+            font-size: 10.584px;
+            line-height: 14px;
+            text-align: right;
+            color: #666666;
+            margin-bottom: 18px;
+        }
+        &-value,
+        &-valute{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #666666;  
+            text-align: right;          
+        }
+        &-value{
+            margin-bottom: 8px;
+        }
+        &-valute{
+            margin-left: 6px;
+        }
+    }
+    &-importent{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #666666;      
+        padding-left: 10px; 
+        margin-bottom: 6px; 
+    }
+    &-importent__info{
+        font-family: $main-font;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+        margin-left: 13px;
+        text-transform: none;
+    }
+    &-box{
+
+    }
+    &-box__info{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+        grid-gap: 15px 9px;
+        background: #F4F6F9;
+        border-radius: 5px;
+        padding: 10px;
+        &-title{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #222222;
+        }
+    }
+    &-box__inner{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #E8E8E8;
+        &:last-child{
+            border-bottom: 3px solid #E8E8E8;
+            margin-bottom: 20px;
+        }
+    }
+    &-box__list{
+        &-item{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #222222;
+        }
+        &-edit{
+            font-family: $main-font;
+            font-size: 10px;
+            line-height: 14px;
+            color: #E70707;            
+        }
+        &-text{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #222222;
+        }
+        &-info{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 150%;
+            color: #222222;
+        }
+        &-date{
+            font-family: $main-font;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            color: #222222;
+        }
+        &-title{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            color: #757575;            
+        }
+        &--bottom{
+            padding-left: 71px;
+        }
+    }
+    &-upload{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #666666;  
+        margin-right: 27px;    
+        margin-left: 10px;  
+    }
+    &-see{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        color: #757575;
+        background: #F4F6F9;
+        border-radius: 5px;
+        padding: 4px 12px;
+    }
+    &-cooperator{
+        padding-left: 10px;
+        margin: 16px 0 19px;
+    }
+    &-cooperator__text{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #666666;
+        margin-right: 32px;        
+    }
+    &-docs{
+        .docs-cart{
+            background: #D7FFE2;
+            border-radius: 0;
+            padding: 10px;
+            margin-bottom: 0 !important;
+        }
+        .docs-cart .docs-cart__details .search-form__rate-logo{
+            margin: 0px 0 0 auto;
+        }
+    }
+    &-docs.docs{
+        margin-bottom: 0 !important;
+    }
+    &-docs__info{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        &-title{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #C5A46D;
+            margin-left: 10px;
+        }
+        &-text{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #C5A46D;
+            padding-right: 20px;
+            position: relative;
+            &:after{
+                content: '';
+                background-image: url("../img/svg/arrow-right-bottom.svg");
+                background-repeat: no-repeat;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                right: 0;
+                top: 4px;
+                transform: rotate(90deg);
+            }
+        }
+    }
+    &-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0 20px;
+        margin: 0 10px;
+        border-bottom: 1px solid #E8E8E8;
+        margin-bottom: 19px;
+    }
+    &-buttons__submit{
+        font-family: $main-font;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #222222;
+        border: 2px solid #C5A46D;
+        background: #FFFFFF;
+        padding: 10px 15px;
+        margin-right: 10px;
+        &:hover{
+            background-color: #C5A46D;
+            color: #fff;
+            transition: all .4s;
+        }
+    }
+}
+
+
+.tour-info{
+    &__item{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #666666;
+        margin-bottom: 5px;
+    }
+    &__item-text{
+        font-family: $main-font;
+        font-size: 12px;
+        line-height: 16px;
+        color: #222222;
+        margin-left: 11px;
+        text-transform: none;
+    }
+}
+
+.detail{
+    .tour-info{
+        padding: 47px 15px 41px 24px !important;
+        max-width: 282px;
+    }
+    .tour-info__box-title{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .tour-info__box-about{
+        font-family: $main-font;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        color: #222222;
+    }
+    .tour-info__box{
+        height: 90px;
+        max-height: 90px;
+        margin-top: 15px;
+        max-width: 100%;
+        width: 227px !important;
+        height: 90px !important;
+    }
+    .tour-fee{
+        padding-bottom: 8.5px;
+        &--line{
+            border-bottom: 1px solid #E8E8E8;
+            margin-bottom: 21px;
+        }
+        &__inner{
+            display: flex;
+            justify-content: space-between;
+            max-width: 230px;
+            margin: 0 auto 7px;
+        }
+        &__title{
+            font-family: $main-font;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #666666;
+            &-percent{
+                margin-left: 8px;
+            }
+        }
+        &__box{
+            &-item{
+                font-family: $main-font;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #222222;        
+                margin-bottom: 5px;    
+                text-align: right;    
+            }
+        }
+        &__add{
+            font-family: $main-font;
+            font-size: 10.584px;
+            line-height: 14px;
+            text-align: center;
+            color: #666666;
+            display: block;
+            text-align: center;            
+        }
+        &__percent{
+            margin-left: 4px;
+        }
+    }
+    .tour-payed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 25px;
+        &__title{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #666666;            
+        }
+        &__cast{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: #222222;
+            margin-bottom: 5px;
+            text-align: right;
+        }
+    }
+    .tour-forpayment{
+        padding-bottom: 15px;
+        &__text{
+            font-family: $main-font;
+            font-size: 10.584px;
+            line-height: 14px;
+            color: #222222;
+            margin-bottom: 6.5px;            
+        }
+        &__detail{
+            font-family: $main-font;
+            font-size: 10px;
+            line-height: 20px;
+            color: #000000;         
+            margin-right: 12px;   
+        }
+    }
+}

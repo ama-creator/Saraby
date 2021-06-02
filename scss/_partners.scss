@@ -1,0 +1,47 @@
+.partners{
+    margin-bottom: 240px;
+    &-wrapper{
+
+    }
+    &-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-gap: 15px 15px;
+        padding: 20px 0;
+        margin: 0 30px;
+        align-items: center;
+        border-bottom: 1px solid #E8E8E8;
+    }
+    &-box__title{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #BBBBBB;
+    }
+    &-box__pic{
+        max-width: 255px;
+        width: 270px;
+        height: 70px;
+    }
+    &-box__name{
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 160%;
+        color: #434343;        
+    }
+    &-box__text{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 160%;
+        color: #757575;
+    }
+    &-box__info{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 160%;
+        color: #757575;
+        max-width: 266px;
+    }
+}

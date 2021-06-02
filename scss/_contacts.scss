@@ -1,0 +1,106 @@
+.contacts{
+    &-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+    &-info{
+
+    }
+    &-info__title{
+        font-family: $main-font;
+        font-size: 36px;
+        line-height: 49px;
+        text-transform: uppercase;
+        color: #C5A46D;
+        margin-bottom: 40px;
+    }
+    &-info__inner{
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        padding: 30px;
+        max-width: 370px;
+    }
+    &-info__box{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 18px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #DEDEDE;
+        &-title{
+            font-family: $main-font;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #222222;            
+        }
+        &-text{
+            font-family: $main-font;
+            font-size: 14px;
+            line-height: 19px;
+            color: #7C7C7C;            
+        }
+    }
+    &-about{
+
+    }
+    &-about__text{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 160%;
+        color: #757575;   
+        max-width: 767px;
+        margin-top: 84px;
+    }
+    &-item{
+
+    }
+    &-item__pic{
+        max-width: 270px;
+        max-height: 270px;
+        margin: 0 auto;
+        display: block;
+    }
+    &-item__title{
+        font-family: $main-font;
+        line-height: 22px;
+        color: #C5A46D;
+        max-width: 231px;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+    &-item__text{
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+    &-item__link{
+        font-family: $main-font;
+        font-size: 18px;
+        line-height: 25px;
+        color: #757575;   
+        margin-bottom: 20px;  
+        display: block;
+        text-align: center;   
+    }
+    &-icons{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        svg{
+            margin-right: 30px;
+        }
+    }
+    &-maps{
+        margin: 40px 0 240px;
+    }
+}
+
+.place-card.place-card-large{
+    display: none !important;
+}
+

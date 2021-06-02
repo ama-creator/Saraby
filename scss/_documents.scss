@@ -1,0 +1,26 @@
+.docs-files{
+    margin-bottom: 240px;
+}
+.docs-file__save-title{
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #757575;
+    max-width: 225px;
+}
+
+.docs-files__save svg{
+    display: block;
+    margin-left: auto;
+    margin: 0 auto 20px;
+}
+
+.docs-files__inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+    grid-gap: 15px 15px;
+    margin-bottom: 60px;
+}
