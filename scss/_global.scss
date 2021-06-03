@@ -41,6 +41,10 @@ li{
   color: $yellow-font-color;
 }
 
+.overflow--hidden{
+  overflow: hidden;
+}
+
 input:focus + label,
 input:not(:placeholder-shown) + label{
     top: 20px !important;
@@ -55,7 +59,9 @@ select:focus-visible {
 }
 
 
-
+#amount{
+  margin-bottom: 3px;
+}
 
 
 // styles for slick slider 
@@ -213,7 +219,7 @@ select:focus-visible {
   }
   100% {
    opacity:1;
-   width: 445px;
+   width: 38.1%;
    background-color: #A5D9FF;   
   }
  }

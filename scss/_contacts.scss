@@ -5,7 +5,8 @@
         margin-bottom: 120px;
     }
     &-info{
-
+        min-width: 402px;
+        white-space: nowrap;
     }
     &-info__title{
         font-family: $main-font;
@@ -58,7 +59,7 @@
     &-item__pic{
         max-width: 270px;
         max-height: 270px;
-        margin: 0 auto;
+        margin: 0 auto 30px;
         display: block;
     }
     &-item__title{

@@ -120,6 +120,49 @@
             transition: all .4s;
         }
     }
+    &-bottom__btn{
+        display: none;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        &-line{
+            background-color: #222222;
+            display: block;
+            margin-bottom: 4px;
+            width: 32px;
+            height: 2.5px;
+            opacity: 1;
+            transition: opacity 1s;
+        }
+        &::before,
+        &::after {
+            content: "";
+            background-color: #222222;
+            width: 32px;
+            height: 2px;
+            display: block;
+            margin-bottom: 4px;
+            transition: transform .3s;
+        }
+        &::after {
+            margin-bottom: 0;
+            width: 20px;
+            margin-left: auto;
+        }
+        &--active::after {
+            width: 32px;
+            background-color: #fff;
+            transform: translateY(-6px) rotate(-135deg);
+        }
+        &--active::before {
+            background-color: #fff;
+            transform: translateY(6px) rotate(135deg);
+        }
+        &--active .header-bottom__btn-line {
+            opacity: 0;
+            transition: opacity 0s;
+        }
+    }
 }
 // header end 
 
@@ -156,12 +199,13 @@
     }
     &-wrapper{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(140px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
         grid-gap: 30px;
     }
     &-cart__pic{
         width: 100%;
-        height: 240px;
+        height: auto;
+        object-fit: cover;
     }
     &-cart__info{
         padding: 10px 20px 30px;
@@ -461,7 +505,7 @@
     }
     &-form__research{
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
         border-bottom: 1px solid #E8E8E8;
         margin-bottom: 18px;
         width: 97.2%;
@@ -486,6 +530,7 @@
             margin-left: 23px;
             color: #757575;
             padding-bottom: 10.5px;
+            white-space: nowrap;
             &:hover{
                 color: $yellow-font-color;
                 transition: all .3s;
