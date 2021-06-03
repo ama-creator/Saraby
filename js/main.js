@@ -76,14 +76,9 @@ $('.header-bottom__btn').on('click', function () {
   
   });
   
-//   $('.header-menu__link').on('click', function () {
-//     $('.header-menu__btn').removeClass('header-menu__btn--active');
-//     $('.header-menu__list').removeClass('header-menu__list--active');
+  $('.faq-box__item-title').on('click', function(){
+
+    $('.faq-box__item').removeClass('faq-box__item--active');
+    $(this).parent().addClass('faq-box__item--active');
   
-//   });
-  
-//   $('.header-social').on('click', function () {
-//     $('.header-menu__btn').removeClass('header-menu__btn--active');
-//     $('.header-menu__list').removeClass('header-menu__list--active');
-  
-//   });
+  });
