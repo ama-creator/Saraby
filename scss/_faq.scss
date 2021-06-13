@@ -40,6 +40,7 @@
         }
         &-text{
             display: none;
+            visibility: hidden;
             font-family: $main-font;
             font-size: 16px;
             line-height: 160%;
@@ -60,8 +61,30 @@
 
 .faq-box__item.faq-box__item--active .faq-box__item-text {
     display: block;
+    animation: show-up 1s forwards;
 }
 
 .faq-box__item.faq-box__item--active .faq-box__item-title::after{
     background-image: url('../img/faq/faq-close.svg');
+}
+
+@keyframes show-up {
+        0%{
+            opacity: 0;
+        }
+
+        50%{
+            opacity: 60%;
+            visibility: visible;
+        }
+        
+        100%{
+            opacity: 100%;
+            visibility: visible;
+        }
+
+}
+
+@keyframes (identifier) {
+    
 }
